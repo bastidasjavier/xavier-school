@@ -1,0 +1,1630 @@
+<?php
+$cache = array (
+  'subsystems' => 
+  array (
+    'access' => NULL,
+    'admin' => '/home/u723187573/public_html/xavierschool/admin',
+    'auth' => '/home/u723187573/public_html/xavierschool/auth',
+    'backup' => '/home/u723187573/public_html/xavierschool/backup/util/ui',
+    'badges' => '/home/u723187573/public_html/xavierschool/badges',
+    'block' => '/home/u723187573/public_html/xavierschool/blocks',
+    'blog' => '/home/u723187573/public_html/xavierschool/blog',
+    'bulkusers' => NULL,
+    'cache' => '/home/u723187573/public_html/xavierschool/cache',
+    'calendar' => '/home/u723187573/public_html/xavierschool/calendar',
+    'cohort' => '/home/u723187573/public_html/xavierschool/cohort',
+    'condition' => NULL,
+    'completion' => NULL,
+    'countries' => NULL,
+    'course' => '/home/u723187573/public_html/xavierschool/course',
+    'currencies' => NULL,
+    'dbtransfer' => NULL,
+    'debug' => NULL,
+    'editor' => '/home/u723187573/public_html/xavierschool/lib/editor',
+    'edufields' => NULL,
+    'enrol' => '/home/u723187573/public_html/xavierschool/enrol',
+    'error' => NULL,
+    'filepicker' => NULL,
+    'files' => '/home/u723187573/public_html/xavierschool/files',
+    'filters' => NULL,
+    'form' => '/home/u723187573/public_html/xavierschool/lib/form',
+    'grades' => '/home/u723187573/public_html/xavierschool/grade',
+    'grading' => '/home/u723187573/public_html/xavierschool/grade/grading',
+    'group' => '/home/u723187573/public_html/xavierschool/group',
+    'help' => NULL,
+    'hub' => NULL,
+    'imscc' => NULL,
+    'install' => NULL,
+    'iso6392' => NULL,
+    'langconfig' => NULL,
+    'license' => NULL,
+    'mathslib' => NULL,
+    'media' => NULL,
+    'message' => '/home/u723187573/public_html/xavierschool/message',
+    'mimetypes' => NULL,
+    'mnet' => '/home/u723187573/public_html/xavierschool/mnet',
+    'my' => '/home/u723187573/public_html/xavierschool/my',
+    'notes' => '/home/u723187573/public_html/xavierschool/notes',
+    'pagetype' => NULL,
+    'pix' => NULL,
+    'plagiarism' => '/home/u723187573/public_html/xavierschool/plagiarism',
+    'plugin' => NULL,
+    'portfolio' => '/home/u723187573/public_html/xavierschool/portfolio',
+    'publish' => '/home/u723187573/public_html/xavierschool/course/publish',
+    'question' => '/home/u723187573/public_html/xavierschool/question',
+    'rating' => '/home/u723187573/public_html/xavierschool/rating',
+    'register' => '/home/u723187573/public_html/xavierschool/admin/registration',
+    'repository' => '/home/u723187573/public_html/xavierschool/repository',
+    'rss' => '/home/u723187573/public_html/xavierschool/rss',
+    'role' => '/home/u723187573/public_html/xavierschool/admin/roles',
+    'search' => NULL,
+    'table' => NULL,
+    'tag' => '/home/u723187573/public_html/xavierschool/tag',
+    'timezones' => NULL,
+    'user' => '/home/u723187573/public_html/xavierschool/user',
+    'userkey' => NULL,
+    'webservice' => '/home/u723187573/public_html/xavierschool/webservice',
+  ),
+  'plugintypes' => 
+  array (
+    'qtype' => '/home/u723187573/public_html/xavierschool/question/type',
+    'mod' => '/home/u723187573/public_html/xavierschool/mod',
+    'auth' => '/home/u723187573/public_html/xavierschool/auth',
+    'calendartype' => '/home/u723187573/public_html/xavierschool/calendar/type',
+    'enrol' => '/home/u723187573/public_html/xavierschool/enrol',
+    'message' => '/home/u723187573/public_html/xavierschool/message/output',
+    'block' => '/home/u723187573/public_html/xavierschool/blocks',
+    'filter' => '/home/u723187573/public_html/xavierschool/filter',
+    'editor' => '/home/u723187573/public_html/xavierschool/lib/editor',
+    'format' => '/home/u723187573/public_html/xavierschool/course/format',
+    'profilefield' => '/home/u723187573/public_html/xavierschool/user/profile/field',
+    'report' => '/home/u723187573/public_html/xavierschool/report',
+    'coursereport' => '/home/u723187573/public_html/xavierschool/course/report',
+    'gradeexport' => '/home/u723187573/public_html/xavierschool/grade/export',
+    'gradeimport' => '/home/u723187573/public_html/xavierschool/grade/import',
+    'gradereport' => '/home/u723187573/public_html/xavierschool/grade/report',
+    'gradingform' => '/home/u723187573/public_html/xavierschool/grade/grading/form',
+    'mnetservice' => '/home/u723187573/public_html/xavierschool/mnet/service',
+    'webservice' => '/home/u723187573/public_html/xavierschool/webservice',
+    'repository' => '/home/u723187573/public_html/xavierschool/repository',
+    'portfolio' => '/home/u723187573/public_html/xavierschool/portfolio',
+    'qbehaviour' => '/home/u723187573/public_html/xavierschool/question/behaviour',
+    'qformat' => '/home/u723187573/public_html/xavierschool/question/format',
+    'plagiarism' => '/home/u723187573/public_html/xavierschool/plagiarism',
+    'tool' => '/home/u723187573/public_html/xavierschool/admin/tool',
+    'cachestore' => '/home/u723187573/public_html/xavierschool/cache/stores',
+    'cachelock' => '/home/u723187573/public_html/xavierschool/cache/locks',
+    'theme' => '/home/u723187573/public_html/xavierschool/theme',
+    'assignsubmission' => '/home/u723187573/public_html/xavierschool/mod/assign/submission',
+    'assignfeedback' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback',
+    'assignment' => '/home/u723187573/public_html/xavierschool/mod/assignment/type',
+    'booktool' => '/home/u723187573/public_html/xavierschool/mod/book/tool',
+    'datafield' => '/home/u723187573/public_html/xavierschool/mod/data/field',
+    'datapreset' => '/home/u723187573/public_html/xavierschool/mod/data/preset',
+    'ltisource' => '/home/u723187573/public_html/xavierschool/mod/lti/source',
+    'quiz' => '/home/u723187573/public_html/xavierschool/mod/quiz/report',
+    'quizaccess' => '/home/u723187573/public_html/xavierschool/mod/quiz/accessrule',
+    'scormreport' => '/home/u723187573/public_html/xavierschool/mod/scorm/report',
+    'workshopform' => '/home/u723187573/public_html/xavierschool/mod/workshop/form',
+    'workshopallocation' => '/home/u723187573/public_html/xavierschool/mod/workshop/allocation',
+    'workshopeval' => '/home/u723187573/public_html/xavierschool/mod/workshop/eval',
+    'tinymce' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins',
+    'local' => '/home/u723187573/public_html/xavierschool/local',
+  ),
+  'plugins' => 
+  array (
+    'qtype' => 
+    array (
+      'calculated' => '/home/u723187573/public_html/xavierschool/question/type/calculated',
+      'calculatedmulti' => '/home/u723187573/public_html/xavierschool/question/type/calculatedmulti',
+      'calculatedsimple' => '/home/u723187573/public_html/xavierschool/question/type/calculatedsimple',
+      'description' => '/home/u723187573/public_html/xavierschool/question/type/description',
+      'essay' => '/home/u723187573/public_html/xavierschool/question/type/essay',
+      'match' => '/home/u723187573/public_html/xavierschool/question/type/match',
+      'missingtype' => '/home/u723187573/public_html/xavierschool/question/type/missingtype',
+      'multianswer' => '/home/u723187573/public_html/xavierschool/question/type/multianswer',
+      'multichoice' => '/home/u723187573/public_html/xavierschool/question/type/multichoice',
+      'numerical' => '/home/u723187573/public_html/xavierschool/question/type/numerical',
+      'random' => '/home/u723187573/public_html/xavierschool/question/type/random',
+      'randomsamatch' => '/home/u723187573/public_html/xavierschool/question/type/randomsamatch',
+      'shortanswer' => '/home/u723187573/public_html/xavierschool/question/type/shortanswer',
+      'truefalse' => '/home/u723187573/public_html/xavierschool/question/type/truefalse',
+    ),
+    'mod' => 
+    array (
+      'assign' => '/home/u723187573/public_html/xavierschool/mod/assign',
+      'assignment' => '/home/u723187573/public_html/xavierschool/mod/assignment',
+      'book' => '/home/u723187573/public_html/xavierschool/mod/book',
+      'chat' => '/home/u723187573/public_html/xavierschool/mod/chat',
+      'choice' => '/home/u723187573/public_html/xavierschool/mod/choice',
+      'data' => '/home/u723187573/public_html/xavierschool/mod/data',
+      'feedback' => '/home/u723187573/public_html/xavierschool/mod/feedback',
+      'folder' => '/home/u723187573/public_html/xavierschool/mod/folder',
+      'forum' => '/home/u723187573/public_html/xavierschool/mod/forum',
+      'glossary' => '/home/u723187573/public_html/xavierschool/mod/glossary',
+      'imscp' => '/home/u723187573/public_html/xavierschool/mod/imscp',
+      'label' => '/home/u723187573/public_html/xavierschool/mod/label',
+      'lesson' => '/home/u723187573/public_html/xavierschool/mod/lesson',
+      'lti' => '/home/u723187573/public_html/xavierschool/mod/lti',
+      'page' => '/home/u723187573/public_html/xavierschool/mod/page',
+      'quiz' => '/home/u723187573/public_html/xavierschool/mod/quiz',
+      'resource' => '/home/u723187573/public_html/xavierschool/mod/resource',
+      'scorm' => '/home/u723187573/public_html/xavierschool/mod/scorm',
+      'survey' => '/home/u723187573/public_html/xavierschool/mod/survey',
+      'url' => '/home/u723187573/public_html/xavierschool/mod/url',
+      'wiki' => '/home/u723187573/public_html/xavierschool/mod/wiki',
+      'workshop' => '/home/u723187573/public_html/xavierschool/mod/workshop',
+    ),
+    'auth' => 
+    array (
+      'cas' => '/home/u723187573/public_html/xavierschool/auth/cas',
+      'db' => '/home/u723187573/public_html/xavierschool/auth/db',
+      'email' => '/home/u723187573/public_html/xavierschool/auth/email',
+      'fc' => '/home/u723187573/public_html/xavierschool/auth/fc',
+      'imap' => '/home/u723187573/public_html/xavierschool/auth/imap',
+      'ldap' => '/home/u723187573/public_html/xavierschool/auth/ldap',
+      'manual' => '/home/u723187573/public_html/xavierschool/auth/manual',
+      'mnet' => '/home/u723187573/public_html/xavierschool/auth/mnet',
+      'nntp' => '/home/u723187573/public_html/xavierschool/auth/nntp',
+      'nologin' => '/home/u723187573/public_html/xavierschool/auth/nologin',
+      'none' => '/home/u723187573/public_html/xavierschool/auth/none',
+      'pam' => '/home/u723187573/public_html/xavierschool/auth/pam',
+      'pop3' => '/home/u723187573/public_html/xavierschool/auth/pop3',
+      'radius' => '/home/u723187573/public_html/xavierschool/auth/radius',
+      'shibboleth' => '/home/u723187573/public_html/xavierschool/auth/shibboleth',
+      'webservice' => '/home/u723187573/public_html/xavierschool/auth/webservice',
+    ),
+    'calendartype' => 
+    array (
+      'gregorian' => '/home/u723187573/public_html/xavierschool/calendar/type/gregorian',
+    ),
+    'enrol' => 
+    array (
+      'category' => '/home/u723187573/public_html/xavierschool/enrol/category',
+      'cohort' => '/home/u723187573/public_html/xavierschool/enrol/cohort',
+      'database' => '/home/u723187573/public_html/xavierschool/enrol/database',
+      'flatfile' => '/home/u723187573/public_html/xavierschool/enrol/flatfile',
+      'guest' => '/home/u723187573/public_html/xavierschool/enrol/guest',
+      'imsenterprise' => '/home/u723187573/public_html/xavierschool/enrol/imsenterprise',
+      'ldap' => '/home/u723187573/public_html/xavierschool/enrol/ldap',
+      'manual' => '/home/u723187573/public_html/xavierschool/enrol/manual',
+      'meta' => '/home/u723187573/public_html/xavierschool/enrol/meta',
+      'mnet' => '/home/u723187573/public_html/xavierschool/enrol/mnet',
+      'paypal' => '/home/u723187573/public_html/xavierschool/enrol/paypal',
+      'self' => '/home/u723187573/public_html/xavierschool/enrol/self',
+    ),
+    'message' => 
+    array (
+      'email' => '/home/u723187573/public_html/xavierschool/message/output/email',
+      'jabber' => '/home/u723187573/public_html/xavierschool/message/output/jabber',
+      'popup' => '/home/u723187573/public_html/xavierschool/message/output/popup',
+    ),
+    'block' => 
+    array (
+      'activity_modules' => '/home/u723187573/public_html/xavierschool/blocks/activity_modules',
+      'admin_bookmarks' => '/home/u723187573/public_html/xavierschool/blocks/admin_bookmarks',
+      'badges' => '/home/u723187573/public_html/xavierschool/blocks/badges',
+      'blog_menu' => '/home/u723187573/public_html/xavierschool/blocks/blog_menu',
+      'blog_recent' => '/home/u723187573/public_html/xavierschool/blocks/blog_recent',
+      'blog_tags' => '/home/u723187573/public_html/xavierschool/blocks/blog_tags',
+      'calendar_month' => '/home/u723187573/public_html/xavierschool/blocks/calendar_month',
+      'calendar_upcoming' => '/home/u723187573/public_html/xavierschool/blocks/calendar_upcoming',
+      'comments' => '/home/u723187573/public_html/xavierschool/blocks/comments',
+      'community' => '/home/u723187573/public_html/xavierschool/blocks/community',
+      'completionstatus' => '/home/u723187573/public_html/xavierschool/blocks/completionstatus',
+      'course_list' => '/home/u723187573/public_html/xavierschool/blocks/course_list',
+      'course_overview' => '/home/u723187573/public_html/xavierschool/blocks/course_overview',
+      'course_summary' => '/home/u723187573/public_html/xavierschool/blocks/course_summary',
+      'feedback' => '/home/u723187573/public_html/xavierschool/blocks/feedback',
+      'glossary_random' => '/home/u723187573/public_html/xavierschool/blocks/glossary_random',
+      'html' => '/home/u723187573/public_html/xavierschool/blocks/html',
+      'login' => '/home/u723187573/public_html/xavierschool/blocks/login',
+      'mentees' => '/home/u723187573/public_html/xavierschool/blocks/mentees',
+      'messages' => '/home/u723187573/public_html/xavierschool/blocks/messages',
+      'mnet_hosts' => '/home/u723187573/public_html/xavierschool/blocks/mnet_hosts',
+      'myprofile' => '/home/u723187573/public_html/xavierschool/blocks/myprofile',
+      'navigation' => '/home/u723187573/public_html/xavierschool/blocks/navigation',
+      'news_items' => '/home/u723187573/public_html/xavierschool/blocks/news_items',
+      'online_users' => '/home/u723187573/public_html/xavierschool/blocks/online_users',
+      'participants' => '/home/u723187573/public_html/xavierschool/blocks/participants',
+      'private_files' => '/home/u723187573/public_html/xavierschool/blocks/private_files',
+      'quiz_results' => '/home/u723187573/public_html/xavierschool/blocks/quiz_results',
+      'recent_activity' => '/home/u723187573/public_html/xavierschool/blocks/recent_activity',
+      'rss_client' => '/home/u723187573/public_html/xavierschool/blocks/rss_client',
+      'search_forums' => '/home/u723187573/public_html/xavierschool/blocks/search_forums',
+      'section_links' => '/home/u723187573/public_html/xavierschool/blocks/section_links',
+      'selfcompletion' => '/home/u723187573/public_html/xavierschool/blocks/selfcompletion',
+      'settings' => '/home/u723187573/public_html/xavierschool/blocks/settings',
+      'site_main_menu' => '/home/u723187573/public_html/xavierschool/blocks/site_main_menu',
+      'social_activities' => '/home/u723187573/public_html/xavierschool/blocks/social_activities',
+      'tag_flickr' => '/home/u723187573/public_html/xavierschool/blocks/tag_flickr',
+      'tag_youtube' => '/home/u723187573/public_html/xavierschool/blocks/tag_youtube',
+      'tags' => '/home/u723187573/public_html/xavierschool/blocks/tags',
+    ),
+    'filter' => 
+    array (
+      'activitynames' => '/home/u723187573/public_html/xavierschool/filter/activitynames',
+      'algebra' => '/home/u723187573/public_html/xavierschool/filter/algebra',
+      'censor' => '/home/u723187573/public_html/xavierschool/filter/censor',
+      'data' => '/home/u723187573/public_html/xavierschool/filter/data',
+      'emailprotect' => '/home/u723187573/public_html/xavierschool/filter/emailprotect',
+      'emoticon' => '/home/u723187573/public_html/xavierschool/filter/emoticon',
+      'glossary' => '/home/u723187573/public_html/xavierschool/filter/glossary',
+      'mediaplugin' => '/home/u723187573/public_html/xavierschool/filter/mediaplugin',
+      'multilang' => '/home/u723187573/public_html/xavierschool/filter/multilang',
+      'tex' => '/home/u723187573/public_html/xavierschool/filter/tex',
+      'tidy' => '/home/u723187573/public_html/xavierschool/filter/tidy',
+      'urltolink' => '/home/u723187573/public_html/xavierschool/filter/urltolink',
+    ),
+    'editor' => 
+    array (
+      'textarea' => '/home/u723187573/public_html/xavierschool/lib/editor/textarea',
+      'tinymce' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce',
+    ),
+    'format' => 
+    array (
+      'singleactivity' => '/home/u723187573/public_html/xavierschool/course/format/singleactivity',
+      'social' => '/home/u723187573/public_html/xavierschool/course/format/social',
+      'topics' => '/home/u723187573/public_html/xavierschool/course/format/topics',
+      'weeks' => '/home/u723187573/public_html/xavierschool/course/format/weeks',
+    ),
+    'profilefield' => 
+    array (
+      'checkbox' => '/home/u723187573/public_html/xavierschool/user/profile/field/checkbox',
+      'datetime' => '/home/u723187573/public_html/xavierschool/user/profile/field/datetime',
+      'menu' => '/home/u723187573/public_html/xavierschool/user/profile/field/menu',
+      'text' => '/home/u723187573/public_html/xavierschool/user/profile/field/text',
+      'textarea' => '/home/u723187573/public_html/xavierschool/user/profile/field/textarea',
+    ),
+    'report' => 
+    array (
+      'backups' => '/home/u723187573/public_html/xavierschool/report/backups',
+      'completion' => '/home/u723187573/public_html/xavierschool/report/completion',
+      'configlog' => '/home/u723187573/public_html/xavierschool/report/configlog',
+      'courseoverview' => '/home/u723187573/public_html/xavierschool/report/courseoverview',
+      'log' => '/home/u723187573/public_html/xavierschool/report/log',
+      'loglive' => '/home/u723187573/public_html/xavierschool/report/loglive',
+      'outline' => '/home/u723187573/public_html/xavierschool/report/outline',
+      'participation' => '/home/u723187573/public_html/xavierschool/report/participation',
+      'performance' => '/home/u723187573/public_html/xavierschool/report/performance',
+      'progress' => '/home/u723187573/public_html/xavierschool/report/progress',
+      'questioninstances' => '/home/u723187573/public_html/xavierschool/report/questioninstances',
+      'security' => '/home/u723187573/public_html/xavierschool/report/security',
+      'stats' => '/home/u723187573/public_html/xavierschool/report/stats',
+    ),
+    'coursereport' => 
+    array (
+    ),
+    'gradeexport' => 
+    array (
+      'ods' => '/home/u723187573/public_html/xavierschool/grade/export/ods',
+      'txt' => '/home/u723187573/public_html/xavierschool/grade/export/txt',
+      'xls' => '/home/u723187573/public_html/xavierschool/grade/export/xls',
+      'xml' => '/home/u723187573/public_html/xavierschool/grade/export/xml',
+    ),
+    'gradeimport' => 
+    array (
+      'csv' => '/home/u723187573/public_html/xavierschool/grade/import/csv',
+      'xml' => '/home/u723187573/public_html/xavierschool/grade/import/xml',
+    ),
+    'gradereport' => 
+    array (
+      'grader' => '/home/u723187573/public_html/xavierschool/grade/report/grader',
+      'outcomes' => '/home/u723187573/public_html/xavierschool/grade/report/outcomes',
+      'overview' => '/home/u723187573/public_html/xavierschool/grade/report/overview',
+      'user' => '/home/u723187573/public_html/xavierschool/grade/report/user',
+    ),
+    'gradingform' => 
+    array (
+      'guide' => '/home/u723187573/public_html/xavierschool/grade/grading/form/guide',
+      'rubric' => '/home/u723187573/public_html/xavierschool/grade/grading/form/rubric',
+    ),
+    'mnetservice' => 
+    array (
+      'enrol' => '/home/u723187573/public_html/xavierschool/mnet/service/enrol',
+    ),
+    'webservice' => 
+    array (
+      'amf' => '/home/u723187573/public_html/xavierschool/webservice/amf',
+      'rest' => '/home/u723187573/public_html/xavierschool/webservice/rest',
+      'soap' => '/home/u723187573/public_html/xavierschool/webservice/soap',
+      'xmlrpc' => '/home/u723187573/public_html/xavierschool/webservice/xmlrpc',
+    ),
+    'repository' => 
+    array (
+      'alfresco' => '/home/u723187573/public_html/xavierschool/repository/alfresco',
+      'areafiles' => '/home/u723187573/public_html/xavierschool/repository/areafiles',
+      'boxnet' => '/home/u723187573/public_html/xavierschool/repository/boxnet',
+      'coursefiles' => '/home/u723187573/public_html/xavierschool/repository/coursefiles',
+      'dropbox' => '/home/u723187573/public_html/xavierschool/repository/dropbox',
+      'equella' => '/home/u723187573/public_html/xavierschool/repository/equella',
+      'filesystem' => '/home/u723187573/public_html/xavierschool/repository/filesystem',
+      'flickr' => '/home/u723187573/public_html/xavierschool/repository/flickr',
+      'flickr_public' => '/home/u723187573/public_html/xavierschool/repository/flickr_public',
+      'googledocs' => '/home/u723187573/public_html/xavierschool/repository/googledocs',
+      'local' => '/home/u723187573/public_html/xavierschool/repository/local',
+      'merlot' => '/home/u723187573/public_html/xavierschool/repository/merlot',
+      'picasa' => '/home/u723187573/public_html/xavierschool/repository/picasa',
+      'recent' => '/home/u723187573/public_html/xavierschool/repository/recent',
+      's3' => '/home/u723187573/public_html/xavierschool/repository/s3',
+      'skydrive' => '/home/u723187573/public_html/xavierschool/repository/skydrive',
+      'upload' => '/home/u723187573/public_html/xavierschool/repository/upload',
+      'url' => '/home/u723187573/public_html/xavierschool/repository/url',
+      'user' => '/home/u723187573/public_html/xavierschool/repository/user',
+      'webdav' => '/home/u723187573/public_html/xavierschool/repository/webdav',
+      'wikimedia' => '/home/u723187573/public_html/xavierschool/repository/wikimedia',
+      'youtube' => '/home/u723187573/public_html/xavierschool/repository/youtube',
+    ),
+    'portfolio' => 
+    array (
+      'boxnet' => '/home/u723187573/public_html/xavierschool/portfolio/boxnet',
+      'download' => '/home/u723187573/public_html/xavierschool/portfolio/download',
+      'flickr' => '/home/u723187573/public_html/xavierschool/portfolio/flickr',
+      'googledocs' => '/home/u723187573/public_html/xavierschool/portfolio/googledocs',
+      'mahara' => '/home/u723187573/public_html/xavierschool/portfolio/mahara',
+      'picasa' => '/home/u723187573/public_html/xavierschool/portfolio/picasa',
+    ),
+    'qbehaviour' => 
+    array (
+      'adaptive' => '/home/u723187573/public_html/xavierschool/question/behaviour/adaptive',
+      'adaptivenopenalty' => '/home/u723187573/public_html/xavierschool/question/behaviour/adaptivenopenalty',
+      'deferredcbm' => '/home/u723187573/public_html/xavierschool/question/behaviour/deferredcbm',
+      'deferredfeedback' => '/home/u723187573/public_html/xavierschool/question/behaviour/deferredfeedback',
+      'immediatecbm' => '/home/u723187573/public_html/xavierschool/question/behaviour/immediatecbm',
+      'immediatefeedback' => '/home/u723187573/public_html/xavierschool/question/behaviour/immediatefeedback',
+      'informationitem' => '/home/u723187573/public_html/xavierschool/question/behaviour/informationitem',
+      'interactive' => '/home/u723187573/public_html/xavierschool/question/behaviour/interactive',
+      'interactivecountback' => '/home/u723187573/public_html/xavierschool/question/behaviour/interactivecountback',
+      'manualgraded' => '/home/u723187573/public_html/xavierschool/question/behaviour/manualgraded',
+      'missing' => '/home/u723187573/public_html/xavierschool/question/behaviour/missing',
+    ),
+    'qformat' => 
+    array (
+      'aiken' => '/home/u723187573/public_html/xavierschool/question/format/aiken',
+      'blackboard_six' => '/home/u723187573/public_html/xavierschool/question/format/blackboard_six',
+      'examview' => '/home/u723187573/public_html/xavierschool/question/format/examview',
+      'gift' => '/home/u723187573/public_html/xavierschool/question/format/gift',
+      'learnwise' => '/home/u723187573/public_html/xavierschool/question/format/learnwise',
+      'missingword' => '/home/u723187573/public_html/xavierschool/question/format/missingword',
+      'multianswer' => '/home/u723187573/public_html/xavierschool/question/format/multianswer',
+      'webct' => '/home/u723187573/public_html/xavierschool/question/format/webct',
+      'xhtml' => '/home/u723187573/public_html/xavierschool/question/format/xhtml',
+      'xml' => '/home/u723187573/public_html/xavierschool/question/format/xml',
+    ),
+    'plagiarism' => 
+    array (
+    ),
+    'tool' => 
+    array (
+      'assignmentupgrade' => '/home/u723187573/public_html/xavierschool/admin/tool/assignmentupgrade',
+      'behat' => '/home/u723187573/public_html/xavierschool/admin/tool/behat',
+      'capability' => '/home/u723187573/public_html/xavierschool/admin/tool/capability',
+      'customlang' => '/home/u723187573/public_html/xavierschool/admin/tool/customlang',
+      'dbtransfer' => '/home/u723187573/public_html/xavierschool/admin/tool/dbtransfer',
+      'generator' => '/home/u723187573/public_html/xavierschool/admin/tool/generator',
+      'health' => '/home/u723187573/public_html/xavierschool/admin/tool/health',
+      'innodb' => '/home/u723187573/public_html/xavierschool/admin/tool/innodb',
+      'installaddon' => '/home/u723187573/public_html/xavierschool/admin/tool/installaddon',
+      'langimport' => '/home/u723187573/public_html/xavierschool/admin/tool/langimport',
+      'multilangupgrade' => '/home/u723187573/public_html/xavierschool/admin/tool/multilangupgrade',
+      'phpunit' => '/home/u723187573/public_html/xavierschool/admin/tool/phpunit',
+      'profiling' => '/home/u723187573/public_html/xavierschool/admin/tool/profiling',
+      'qeupgradehelper' => '/home/u723187573/public_html/xavierschool/admin/tool/qeupgradehelper',
+      'replace' => '/home/u723187573/public_html/xavierschool/admin/tool/replace',
+      'spamcleaner' => '/home/u723187573/public_html/xavierschool/admin/tool/spamcleaner',
+      'timezoneimport' => '/home/u723187573/public_html/xavierschool/admin/tool/timezoneimport',
+      'unsuproles' => '/home/u723187573/public_html/xavierschool/admin/tool/unsuproles',
+      'uploadcourse' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse',
+      'uploaduser' => '/home/u723187573/public_html/xavierschool/admin/tool/uploaduser',
+      'xmldb' => '/home/u723187573/public_html/xavierschool/admin/tool/xmldb',
+    ),
+    'cachestore' => 
+    array (
+      'file' => '/home/u723187573/public_html/xavierschool/cache/stores/file',
+      'memcache' => '/home/u723187573/public_html/xavierschool/cache/stores/memcache',
+      'memcached' => '/home/u723187573/public_html/xavierschool/cache/stores/memcached',
+      'mongodb' => '/home/u723187573/public_html/xavierschool/cache/stores/mongodb',
+      'session' => '/home/u723187573/public_html/xavierschool/cache/stores/session',
+      'static' => '/home/u723187573/public_html/xavierschool/cache/stores/static',
+    ),
+    'cachelock' => 
+    array (
+      'file' => '/home/u723187573/public_html/xavierschool/cache/locks/file',
+    ),
+    'theme' => 
+    array (
+      'afterburner' => '/home/u723187573/public_html/xavierschool/theme/afterburner',
+      'anomaly' => '/home/u723187573/public_html/xavierschool/theme/anomaly',
+      'arialist' => '/home/u723187573/public_html/xavierschool/theme/arialist',
+      'base' => '/home/u723187573/public_html/xavierschool/theme/base',
+      'binarius' => '/home/u723187573/public_html/xavierschool/theme/binarius',
+      'bootstrapbase' => '/home/u723187573/public_html/xavierschool/theme/bootstrapbase',
+      'boxxie' => '/home/u723187573/public_html/xavierschool/theme/boxxie',
+      'brick' => '/home/u723187573/public_html/xavierschool/theme/brick',
+      'canvas' => '/home/u723187573/public_html/xavierschool/theme/canvas',
+      'clean' => '/home/u723187573/public_html/xavierschool/theme/clean',
+      'formal_white' => '/home/u723187573/public_html/xavierschool/theme/formal_white',
+      'formfactor' => '/home/u723187573/public_html/xavierschool/theme/formfactor',
+      'fusion' => '/home/u723187573/public_html/xavierschool/theme/fusion',
+      'leatherbound' => '/home/u723187573/public_html/xavierschool/theme/leatherbound',
+      'magazine' => '/home/u723187573/public_html/xavierschool/theme/magazine',
+      'nimble' => '/home/u723187573/public_html/xavierschool/theme/nimble',
+      'nonzero' => '/home/u723187573/public_html/xavierschool/theme/nonzero',
+      'overlay' => '/home/u723187573/public_html/xavierschool/theme/overlay',
+      'serenity' => '/home/u723187573/public_html/xavierschool/theme/serenity',
+      'sky_high' => '/home/u723187573/public_html/xavierschool/theme/sky_high',
+      'splash' => '/home/u723187573/public_html/xavierschool/theme/splash',
+      'standard' => '/home/u723187573/public_html/xavierschool/theme/standard',
+      'standardold' => '/home/u723187573/public_html/xavierschool/theme/standardold',
+    ),
+    'assignsubmission' => 
+    array (
+      'comments' => '/home/u723187573/public_html/xavierschool/mod/assign/submission/comments',
+      'file' => '/home/u723187573/public_html/xavierschool/mod/assign/submission/file',
+      'onlinetext' => '/home/u723187573/public_html/xavierschool/mod/assign/submission/onlinetext',
+    ),
+    'assignfeedback' => 
+    array (
+      'comments' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/comments',
+      'editpdf' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf',
+      'file' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/file',
+      'offline' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/offline',
+    ),
+    'assignment' => 
+    array (
+      'offline' => '/home/u723187573/public_html/xavierschool/mod/assignment/type/offline',
+      'online' => '/home/u723187573/public_html/xavierschool/mod/assignment/type/online',
+      'upload' => '/home/u723187573/public_html/xavierschool/mod/assignment/type/upload',
+      'uploadsingle' => '/home/u723187573/public_html/xavierschool/mod/assignment/type/uploadsingle',
+    ),
+    'booktool' => 
+    array (
+      'exportimscp' => '/home/u723187573/public_html/xavierschool/mod/book/tool/exportimscp',
+      'importhtml' => '/home/u723187573/public_html/xavierschool/mod/book/tool/importhtml',
+      'print' => '/home/u723187573/public_html/xavierschool/mod/book/tool/print',
+    ),
+    'datafield' => 
+    array (
+      'checkbox' => '/home/u723187573/public_html/xavierschool/mod/data/field/checkbox',
+      'date' => '/home/u723187573/public_html/xavierschool/mod/data/field/date',
+      'file' => '/home/u723187573/public_html/xavierschool/mod/data/field/file',
+      'latlong' => '/home/u723187573/public_html/xavierschool/mod/data/field/latlong',
+      'menu' => '/home/u723187573/public_html/xavierschool/mod/data/field/menu',
+      'multimenu' => '/home/u723187573/public_html/xavierschool/mod/data/field/multimenu',
+      'number' => '/home/u723187573/public_html/xavierschool/mod/data/field/number',
+      'picture' => '/home/u723187573/public_html/xavierschool/mod/data/field/picture',
+      'radiobutton' => '/home/u723187573/public_html/xavierschool/mod/data/field/radiobutton',
+      'text' => '/home/u723187573/public_html/xavierschool/mod/data/field/text',
+      'textarea' => '/home/u723187573/public_html/xavierschool/mod/data/field/textarea',
+      'url' => '/home/u723187573/public_html/xavierschool/mod/data/field/url',
+    ),
+    'datapreset' => 
+    array (
+      'imagegallery' => '/home/u723187573/public_html/xavierschool/mod/data/preset/imagegallery',
+    ),
+    'ltisource' => 
+    array (
+    ),
+    'quiz' => 
+    array (
+      'grading' => '/home/u723187573/public_html/xavierschool/mod/quiz/report/grading',
+      'overview' => '/home/u723187573/public_html/xavierschool/mod/quiz/report/overview',
+      'responses' => '/home/u723187573/public_html/xavierschool/mod/quiz/report/responses',
+      'statistics' => '/home/u723187573/public_html/xavierschool/mod/quiz/report/statistics',
+    ),
+    'quizaccess' => 
+    array (
+      'delaybetweenattempts' => '/home/u723187573/public_html/xavierschool/mod/quiz/accessrule/delaybetweenattempts',
+      'ipaddress' => '/home/u723187573/public_html/xavierschool/mod/quiz/accessrule/ipaddress',
+      'numattempts' => '/home/u723187573/public_html/xavierschool/mod/quiz/accessrule/numattempts',
+      'openclosedate' => '/home/u723187573/public_html/xavierschool/mod/quiz/accessrule/openclosedate',
+      'password' => '/home/u723187573/public_html/xavierschool/mod/quiz/accessrule/password',
+      'safebrowser' => '/home/u723187573/public_html/xavierschool/mod/quiz/accessrule/safebrowser',
+      'securewindow' => '/home/u723187573/public_html/xavierschool/mod/quiz/accessrule/securewindow',
+      'timelimit' => '/home/u723187573/public_html/xavierschool/mod/quiz/accessrule/timelimit',
+    ),
+    'scormreport' => 
+    array (
+      'basic' => '/home/u723187573/public_html/xavierschool/mod/scorm/report/basic',
+      'graphs' => '/home/u723187573/public_html/xavierschool/mod/scorm/report/graphs',
+      'interactions' => '/home/u723187573/public_html/xavierschool/mod/scorm/report/interactions',
+      'objectives' => '/home/u723187573/public_html/xavierschool/mod/scorm/report/objectives',
+    ),
+    'workshopform' => 
+    array (
+      'accumulative' => '/home/u723187573/public_html/xavierschool/mod/workshop/form/accumulative',
+      'comments' => '/home/u723187573/public_html/xavierschool/mod/workshop/form/comments',
+      'numerrors' => '/home/u723187573/public_html/xavierschool/mod/workshop/form/numerrors',
+      'rubric' => '/home/u723187573/public_html/xavierschool/mod/workshop/form/rubric',
+    ),
+    'workshopallocation' => 
+    array (
+      'manual' => '/home/u723187573/public_html/xavierschool/mod/workshop/allocation/manual',
+      'random' => '/home/u723187573/public_html/xavierschool/mod/workshop/allocation/random',
+      'scheduled' => '/home/u723187573/public_html/xavierschool/mod/workshop/allocation/scheduled',
+    ),
+    'workshopeval' => 
+    array (
+      'best' => '/home/u723187573/public_html/xavierschool/mod/workshop/eval/best',
+    ),
+    'tinymce' => 
+    array (
+      'ctrlhelp' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/ctrlhelp',
+      'dragmath' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/dragmath',
+      'managefiles' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/managefiles',
+      'moodleemoticon' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/moodleemoticon',
+      'moodleimage' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/moodleimage',
+      'moodlemedia' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/moodlemedia',
+      'moodlenolink' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/moodlenolink',
+      'pdw' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/pdw',
+      'spellchecker' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker',
+      'wrap' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/wrap',
+    ),
+    'local' => 
+    array (
+    ),
+  ),
+  'parents' => 
+  array (
+    'assignsubmission' => 'mod_assign',
+    'assignfeedback' => 'mod_assign',
+    'assignment' => 'mod_assignment',
+    'booktool' => 'mod_book',
+    'datafield' => 'mod_data',
+    'datapreset' => 'mod_data',
+    'ltisource' => 'mod_lti',
+    'quiz' => 'mod_quiz',
+    'quizaccess' => 'mod_quiz',
+    'scormreport' => 'mod_scorm',
+    'workshopform' => 'mod_workshop',
+    'workshopallocation' => 'mod_workshop',
+    'workshopeval' => 'mod_workshop',
+    'tinymce' => 'editor_tinymce',
+  ),
+  'subplugins' => 
+  array (
+    'mod_assign' => 
+    array (
+      'assignsubmission' => 
+      array (
+        0 => 'comments',
+        1 => 'file',
+        2 => 'onlinetext',
+      ),
+      'assignfeedback' => 
+      array (
+        0 => 'comments',
+        1 => 'editpdf',
+        2 => 'file',
+        3 => 'offline',
+      ),
+    ),
+    'mod_assignment' => 
+    array (
+      'assignment' => 
+      array (
+        0 => 'offline',
+        1 => 'online',
+        2 => 'upload',
+        3 => 'uploadsingle',
+      ),
+    ),
+    'mod_book' => 
+    array (
+      'booktool' => 
+      array (
+        0 => 'exportimscp',
+        1 => 'importhtml',
+        2 => 'print',
+      ),
+    ),
+    'mod_data' => 
+    array (
+      'datafield' => 
+      array (
+        0 => 'checkbox',
+        1 => 'date',
+        2 => 'file',
+        3 => 'latlong',
+        4 => 'menu',
+        5 => 'multimenu',
+        6 => 'number',
+        7 => 'picture',
+        8 => 'radiobutton',
+        9 => 'text',
+        10 => 'textarea',
+        11 => 'url',
+      ),
+      'datapreset' => 
+      array (
+        0 => 'imagegallery',
+      ),
+    ),
+    'mod_lti' => 
+    array (
+      'ltisource' => 
+      array (
+      ),
+    ),
+    'mod_quiz' => 
+    array (
+      'quiz' => 
+      array (
+        0 => 'grading',
+        1 => 'overview',
+        2 => 'responses',
+        3 => 'statistics',
+      ),
+      'quizaccess' => 
+      array (
+        0 => 'delaybetweenattempts',
+        1 => 'ipaddress',
+        2 => 'numattempts',
+        3 => 'openclosedate',
+        4 => 'password',
+        5 => 'safebrowser',
+        6 => 'securewindow',
+        7 => 'timelimit',
+      ),
+    ),
+    'mod_scorm' => 
+    array (
+      'scormreport' => 
+      array (
+        0 => 'basic',
+        1 => 'graphs',
+        2 => 'interactions',
+        3 => 'objectives',
+      ),
+    ),
+    'mod_workshop' => 
+    array (
+      'workshopform' => 
+      array (
+        0 => 'accumulative',
+        1 => 'comments',
+        2 => 'numerrors',
+        3 => 'rubric',
+      ),
+      'workshopallocation' => 
+      array (
+        0 => 'manual',
+        1 => 'random',
+        2 => 'scheduled',
+      ),
+      'workshopeval' => 
+      array (
+        0 => 'best',
+      ),
+    ),
+    'editor_tinymce' => 
+    array (
+      'tinymce' => 
+      array (
+        0 => 'ctrlhelp',
+        1 => 'dragmath',
+        2 => 'managefiles',
+        3 => 'moodleemoticon',
+        4 => 'moodleimage',
+        5 => 'moodlemedia',
+        6 => 'moodlenolink',
+        7 => 'pdw',
+        8 => 'spellchecker',
+        9 => 'wrap',
+      ),
+    ),
+  ),
+  'classmap' => 
+  array (
+    'core_component' => '/home/u723187573/public_html/xavierschool/lib/classes/component.php',
+    'core\\component' => '/home/u723187573/public_html/xavierschool/lib/classes/component.php',
+    'core\\plugininfo\\format' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/format.php',
+    'core\\plugininfo\\gradeexport' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/gradeexport.php',
+    'core\\plugininfo\\local' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/local.php',
+    'core\\plugininfo\\mod' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/mod.php',
+    'core\\plugininfo\\filter' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/filter.php',
+    'core\\plugininfo\\coursereport' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/coursereport.php',
+    'core\\plugininfo\\theme' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/theme.php',
+    'core\\plugininfo\\gradereport' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/gradereport.php',
+    'core\\plugininfo\\enrol' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/enrol.php',
+    'core\\plugininfo\\cachelock' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/cachelock.php',
+    'core\\plugininfo\\gradingform' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/gradingform.php',
+    'core\\plugininfo\\base' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/base.php',
+    'core\\plugininfo\\webservice' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/webservice.php',
+    'core\\plugininfo\\message' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/message.php',
+    'core\\plugininfo\\repository' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/repository.php',
+    'core\\plugininfo\\mnetservice' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/mnetservice.php',
+    'core\\plugininfo\\profilefield' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/profilefield.php',
+    'core\\plugininfo\\general' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/general.php',
+    'core\\plugininfo\\gradeimport' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/gradeimport.php',
+    'core\\plugininfo\\auth' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/auth.php',
+    'core\\plugininfo\\qtype' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/qtype.php',
+    'core\\plugininfo\\cachestore' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/cachestore.php',
+    'core\\plugininfo\\qbehaviour' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/qbehaviour.php',
+    'core\\plugininfo\\block' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/block.php',
+    'core\\plugininfo\\tool' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/tool.php',
+    'core\\plugininfo\\calendartype' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/calendartype.php',
+    'core\\plugininfo\\qformat' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/qformat.php',
+    'core\\plugininfo\\plagiarism' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/plagiarism.php',
+    'core\\plugininfo\\portfolio' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/portfolio.php',
+    'core\\plugininfo\\orphaned' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/orphaned.php',
+    'core\\plugininfo\\editor' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/editor.php',
+    'core\\plugininfo\\report' => '/home/u723187573/public_html/xavierschool/lib/classes/plugininfo/report.php',
+    'core\\update\\checker_exception' => '/home/u723187573/public_html/xavierschool/lib/classes/update/checker_exception.php',
+    'core\\update\\checker' => '/home/u723187573/public_html/xavierschool/lib/classes/update/checker.php',
+    'core\\update\\info' => '/home/u723187573/public_html/xavierschool/lib/classes/update/info.php',
+    'core\\update\\deployer' => '/home/u723187573/public_html/xavierschool/lib/classes/update/deployer.php',
+    'core_minify' => '/home/u723187573/public_html/xavierschool/lib/classes/minify.php',
+    'core\\minify' => '/home/u723187573/public_html/xavierschool/lib/classes/minify.php',
+    'core\\event\\role_allow_override_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/role_allow_override_updated.php',
+    'core\\event\\assessable_submitted' => '/home/u723187573/public_html/xavierschool/lib/classes/event/assessable_submitted.php',
+    'core\\event\\group_member_added' => '/home/u723187573/public_html/xavierschool/lib/classes/event/group_member_added.php',
+    'core\\event\\user_enrolment_created' => '/home/u723187573/public_html/xavierschool/lib/classes/event/user_enrolment_created.php',
+    'core\\event\\course_completion_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_completion_updated.php',
+    'core\\event\\role_deleted' => '/home/u723187573/public_html/xavierschool/lib/classes/event/role_deleted.php',
+    'core\\event\\blog_entry_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/blog_entry_updated.php',
+    'core\\event\\course_module_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_module_updated.php',
+    'core\\event\\course_restored' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_restored.php',
+    'core\\event\\course_module_created' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_module_created.php',
+    'core\\event\\cohort_member_removed' => '/home/u723187573/public_html/xavierschool/lib/classes/event/cohort_member_removed.php',
+    'core\\event\\course_reset_started' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_reset_started.php',
+    'core\\event\\note_deleted' => '/home/u723187573/public_html/xavierschool/lib/classes/event/note_deleted.php',
+    'core\\event\\note_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/note_updated.php',
+    'core\\event\\role_allow_assign_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/role_allow_assign_updated.php',
+    'core\\event\\course_module_completion_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_module_completion_updated.php',
+    'core\\event\\base' => '/home/u723187573/public_html/xavierschool/lib/classes/event/base.php',
+    'core\\event\\grouping_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/grouping_updated.php',
+    'core\\event\\webservice_service_user_removed' => '/home/u723187573/public_html/xavierschool/lib/classes/event/webservice_service_user_removed.php',
+    'core\\event\\user_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/user_updated.php',
+    'core\\event\\grouping_deleted' => '/home/u723187573/public_html/xavierschool/lib/classes/event/grouping_deleted.php',
+    'core\\event\\user_created' => '/home/u723187573/public_html/xavierschool/lib/classes/event/user_created.php',
+    'core\\event\\course_section_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_section_updated.php',
+    'core\\event\\role_allow_switch_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/role_allow_switch_updated.php',
+    'core\\event\\webservice_login_failed' => '/home/u723187573/public_html/xavierschool/lib/classes/event/webservice_login_failed.php',
+    'core\\event\\course_category_deleted' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_category_deleted.php',
+    'core\\event\\course_content_deleted' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_content_deleted.php',
+    'core\\event\\webservice_token_created' => '/home/u723187573/public_html/xavierschool/lib/classes/event/webservice_token_created.php',
+    'core\\event\\manager' => '/home/u723187573/public_html/xavierschool/lib/classes/event/manager.php',
+    'core\\event\\group_created' => '/home/u723187573/public_html/xavierschool/lib/classes/event/group_created.php',
+    'core\\event\\webservice_service_deleted' => '/home/u723187573/public_html/xavierschool/lib/classes/event/webservice_service_deleted.php',
+    'core\\event\\role_assigned' => '/home/u723187573/public_html/xavierschool/lib/classes/event/role_assigned.php',
+    'core\\event\\webservice_function_called' => '/home/u723187573/public_html/xavierschool/lib/classes/event/webservice_function_called.php',
+    'core\\event\\course_module_deleted' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_module_deleted.php',
+    'core\\event\\course_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_updated.php',
+    'core\\event\\user_deleted' => '/home/u723187573/public_html/xavierschool/lib/classes/event/user_deleted.php',
+    'core\\event\\assessable_uploaded' => '/home/u723187573/public_html/xavierschool/lib/classes/event/assessable_uploaded.php',
+    'core\\event\\webservice_token_sent' => '/home/u723187573/public_html/xavierschool/lib/classes/event/webservice_token_sent.php',
+    'core\\event\\role_unassigned' => '/home/u723187573/public_html/xavierschool/lib/classes/event/role_unassigned.php',
+    'core\\event\\cohort_created' => '/home/u723187573/public_html/xavierschool/lib/classes/event/cohort_created.php',
+    'core\\event\\webservice_service_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/webservice_service_updated.php',
+    'core\\event\\webservice_service_created' => '/home/u723187573/public_html/xavierschool/lib/classes/event/webservice_service_created.php',
+    'core\\event\\course_module_instances_list_viewed' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_module_instances_list_viewed.php',
+    'core\\event\\group_deleted' => '/home/u723187573/public_html/xavierschool/lib/classes/event/group_deleted.php',
+    'core\\event\\user_enrolment_deleted' => '/home/u723187573/public_html/xavierschool/lib/classes/event/user_enrolment_deleted.php',
+    'core\\event\\content_viewed' => '/home/u723187573/public_html/xavierschool/lib/classes/event/content_viewed.php',
+    'core\\event\\notes_viewed' => '/home/u723187573/public_html/xavierschool/lib/classes/event/notes_viewed.php',
+    'core\\event\\group_member_removed' => '/home/u723187573/public_html/xavierschool/lib/classes/event/group_member_removed.php',
+    'core\\event\\grouping_created' => '/home/u723187573/public_html/xavierschool/lib/classes/event/grouping_created.php',
+    'core\\event\\user_enrolment_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/user_enrolment_updated.php',
+    'core\\event\\course_reset_ended' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_reset_ended.php',
+    'core\\event\\user_loggedout' => '/home/u723187573/public_html/xavierschool/lib/classes/event/user_loggedout.php',
+    'core\\event\\user_profile_viewed' => '/home/u723187573/public_html/xavierschool/lib/classes/event/user_profile_viewed.php',
+    'core\\event\\course_completed' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_completed.php',
+    'core\\event\\course_created' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_created.php',
+    'core\\event\\cohort_member_added' => '/home/u723187573/public_html/xavierschool/lib/classes/event/cohort_member_added.php',
+    'core\\event\\note_created' => '/home/u723187573/public_html/xavierschool/lib/classes/event/note_created.php',
+    'core\\event\\course_deleted' => '/home/u723187573/public_html/xavierschool/lib/classes/event/course_deleted.php',
+    'core\\event\\cohort_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/cohort_updated.php',
+    'core\\event\\cohort_deleted' => '/home/u723187573/public_html/xavierschool/lib/classes/event/cohort_deleted.php',
+    'core\\event\\blog_entry_deleted' => '/home/u723187573/public_html/xavierschool/lib/classes/event/blog_entry_deleted.php',
+    'core\\event\\role_capabilities_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/role_capabilities_updated.php',
+    'core\\event\\user_loggedinas' => '/home/u723187573/public_html/xavierschool/lib/classes/event/user_loggedinas.php',
+    'core\\event\\webservice_service_user_added' => '/home/u723187573/public_html/xavierschool/lib/classes/event/webservice_service_user_added.php',
+    'core\\event\\user_loggedin' => '/home/u723187573/public_html/xavierschool/lib/classes/event/user_loggedin.php',
+    'core\\event\\user_list_viewed' => '/home/u723187573/public_html/xavierschool/lib/classes/event/user_list_viewed.php',
+    'core\\event\\blog_entry_created' => '/home/u723187573/public_html/xavierschool/lib/classes/event/blog_entry_created.php',
+    'core\\event\\group_updated' => '/home/u723187573/public_html/xavierschool/lib/classes/event/group_updated.php',
+    'core_string_manager' => '/home/u723187573/public_html/xavierschool/lib/classes/string_manager.php',
+    'core\\string_manager' => '/home/u723187573/public_html/xavierschool/lib/classes/string_manager.php',
+    'core_collator' => '/home/u723187573/public_html/xavierschool/lib/classes/collator.php',
+    'core\\collator' => '/home/u723187573/public_html/xavierschool/lib/classes/collator.php',
+    'core_plugin_manager' => '/home/u723187573/public_html/xavierschool/lib/classes/plugin_manager.php',
+    'core\\plugin_manager' => '/home/u723187573/public_html/xavierschool/lib/classes/plugin_manager.php',
+    'core_useragent' => '/home/u723187573/public_html/xavierschool/lib/classes/useragent.php',
+    'core\\useragent' => '/home/u723187573/public_html/xavierschool/lib/classes/useragent.php',
+    'core_shutdown_manager' => '/home/u723187573/public_html/xavierschool/lib/classes/shutdown_manager.php',
+    'core\\shutdown_manager' => '/home/u723187573/public_html/xavierschool/lib/classes/shutdown_manager.php',
+    'core_user' => '/home/u723187573/public_html/xavierschool/lib/classes/user.php',
+    'core\\user' => '/home/u723187573/public_html/xavierschool/lib/classes/user.php',
+    'core\\session\\exception' => '/home/u723187573/public_html/xavierschool/lib/classes/session/exception.php',
+    'core\\session\\file' => '/home/u723187573/public_html/xavierschool/lib/classes/session/file.php',
+    'core\\session\\handler' => '/home/u723187573/public_html/xavierschool/lib/classes/session/handler.php',
+    'core\\session\\database' => '/home/u723187573/public_html/xavierschool/lib/classes/session/database.php',
+    'core\\session\\manager' => '/home/u723187573/public_html/xavierschool/lib/classes/session/manager.php',
+    'core\\session\\memcached' => '/home/u723187573/public_html/xavierschool/lib/classes/session/memcached.php',
+    'core_text' => '/home/u723187573/public_html/xavierschool/lib/classes/text.php',
+    'core\\text' => '/home/u723187573/public_html/xavierschool/lib/classes/text.php',
+    'core_string_manager_install' => '/home/u723187573/public_html/xavierschool/lib/classes/string_manager_install.php',
+    'core\\string_manager_install' => '/home/u723187573/public_html/xavierschool/lib/classes/string_manager_install.php',
+    'core_string_manager_standard' => '/home/u723187573/public_html/xavierschool/lib/classes/string_manager_standard.php',
+    'core\\string_manager_standard' => '/home/u723187573/public_html/xavierschool/lib/classes/string_manager_standard.php',
+    'core_badges_assertion' => '/home/u723187573/public_html/xavierschool/badges/classes/assertion.php',
+    'core_badges\\assertion' => '/home/u723187573/public_html/xavierschool/badges/classes/assertion.php',
+    'core_badges_observer' => '/home/u723187573/public_html/xavierschool/badges/classes/observer.php',
+    'core_badges\\observer' => '/home/u723187573/public_html/xavierschool/badges/classes/observer.php',
+    'core_cache_helper' => '/home/u723187573/public_html/xavierschool/cache/classes/helper.php',
+    'core_cache\\helper' => '/home/u723187573/public_html/xavierschool/cache/classes/helper.php',
+    'core_cache_interfaces' => '/home/u723187573/public_html/xavierschool/cache/classes/interfaces.php',
+    'core_cache\\interfaces' => '/home/u723187573/public_html/xavierschool/cache/classes/interfaces.php',
+    'core_cache_definition' => '/home/u723187573/public_html/xavierschool/cache/classes/definition.php',
+    'core_cache\\definition' => '/home/u723187573/public_html/xavierschool/cache/classes/definition.php',
+    'core_cache_factory' => '/home/u723187573/public_html/xavierschool/cache/classes/factory.php',
+    'core_cache\\factory' => '/home/u723187573/public_html/xavierschool/cache/classes/factory.php',
+    'core_cache_loaders' => '/home/u723187573/public_html/xavierschool/cache/classes/loaders.php',
+    'core_cache\\loaders' => '/home/u723187573/public_html/xavierschool/cache/classes/loaders.php',
+    'core_cache_dummystore' => '/home/u723187573/public_html/xavierschool/cache/classes/dummystore.php',
+    'core_cache\\dummystore' => '/home/u723187573/public_html/xavierschool/cache/classes/dummystore.php',
+    'core_cache_store' => '/home/u723187573/public_html/xavierschool/cache/classes/store.php',
+    'core_cache\\store' => '/home/u723187573/public_html/xavierschool/cache/classes/store.php',
+    'core_cache_config' => '/home/u723187573/public_html/xavierschool/cache/classes/config.php',
+    'core_cache\\config' => '/home/u723187573/public_html/xavierschool/cache/classes/config.php',
+    'core_calendar_type_factory' => '/home/u723187573/public_html/xavierschool/calendar/classes/type_factory.php',
+    'core_calendar\\type_factory' => '/home/u723187573/public_html/xavierschool/calendar/classes/type_factory.php',
+    'core_calendar_type_base' => '/home/u723187573/public_html/xavierschool/calendar/classes/type_base.php',
+    'core_calendar\\type_base' => '/home/u723187573/public_html/xavierschool/calendar/classes/type_base.php',
+    'core_course_editcategory_form' => '/home/u723187573/public_html/xavierschool/course/classes/editcategory_form.php',
+    'core_course\\editcategory_form' => '/home/u723187573/public_html/xavierschool/course/classes/editcategory_form.php',
+    'core_course_management_renderer' => '/home/u723187573/public_html/xavierschool/course/classes/management_renderer.php',
+    'core_course\\management_renderer' => '/home/u723187573/public_html/xavierschool/course/classes/management_renderer.php',
+    'core_course\\management\\helper' => '/home/u723187573/public_html/xavierschool/course/classes/management/helper.php',
+    'core_course_deletecategory_form' => '/home/u723187573/public_html/xavierschool/course/classes/deletecategory_form.php',
+    'core_course\\deletecategory_form' => '/home/u723187573/public_html/xavierschool/course/classes/deletecategory_form.php',
+    'core_question\\statistics\\questions\\calculated' => '/home/u723187573/public_html/xavierschool/question/classes/statistics/questions/calculated.php',
+    'core_question\\statistics\\questions\\calculator' => '/home/u723187573/public_html/xavierschool/question/classes/statistics/questions/calculator.php',
+    'core_question\\statistics\\questions\\calculated_for_subquestion' => '/home/u723187573/public_html/xavierschool/question/classes/statistics/questions/calculated_for_subquestion.php',
+    'core_question\\statistics\\responses\\analysis_for_actual_response' => '/home/u723187573/public_html/xavierschool/question/classes/statistics/responses/analysis_for_actual_response.php',
+    'core_question\\statistics\\responses\\analyser' => '/home/u723187573/public_html/xavierschool/question/classes/statistics/responses/analyser.php',
+    'core_question\\statistics\\responses\\analysis_for_class' => '/home/u723187573/public_html/xavierschool/question/classes/statistics/responses/analysis_for_class.php',
+    'core_question\\statistics\\responses\\analysis_for_subpart' => '/home/u723187573/public_html/xavierschool/question/classes/statistics/responses/analysis_for_subpart.php',
+    'core_question\\statistics\\responses\\analysis_for_question' => '/home/u723187573/public_html/xavierschool/question/classes/statistics/responses/analysis_for_question.php',
+    'core_role_potential_assignees_below_course' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/potential_assignees_below_course.php',
+    'core_role\\potential_assignees_below_course' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/potential_assignees_below_course.php',
+    'core_role_allow_override_page' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/allow_override_page.php',
+    'core_role\\allow_override_page' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/allow_override_page.php',
+    'core_role_capability_table_with_risks' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/capability_table_with_risks.php',
+    'core_role\\capability_table_with_risks' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/capability_table_with_risks.php',
+    'core_role_existing_role_holders' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/existing_role_holders.php',
+    'core_role\\existing_role_holders' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/existing_role_holders.php',
+    'core_role_permission_allow_form' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/permission_allow_form.php',
+    'core_role\\permission_allow_form' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/permission_allow_form.php',
+    'core_role_permissions_table' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/permissions_table.php',
+    'core_role\\permissions_table' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/permissions_table.php',
+    'core_role_override_permissions_table_advanced' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/override_permissions_table_advanced.php',
+    'core_role\\override_permissions_table_advanced' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/override_permissions_table_advanced.php',
+    'core_role_check_capability_table' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/check_capability_table.php',
+    'core_role\\check_capability_table' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/check_capability_table.php',
+    'core_role_preset' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/preset.php',
+    'core_role\\preset' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/preset.php',
+    'core_role_define_role_table_basic' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/define_role_table_basic.php',
+    'core_role\\define_role_table_basic' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/define_role_table_basic.php',
+    'core_role_capability_table_base' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/capability_table_base.php',
+    'core_role\\capability_table_base' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/capability_table_base.php',
+    'core_role_preset_form' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/preset_form.php',
+    'core_role\\preset_form' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/preset_form.php',
+    'core_role_assign_user_selector_base' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/assign_user_selector_base.php',
+    'core_role\\assign_user_selector_base' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/assign_user_selector_base.php',
+    'core_role_allow_assign_page' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/allow_assign_page.php',
+    'core_role\\allow_assign_page' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/allow_assign_page.php',
+    'core_role_view_role_definition_table' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/view_role_definition_table.php',
+    'core_role\\view_role_definition_table' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/view_role_definition_table.php',
+    'core_role_admins_existing_selector' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/admins_existing_selector.php',
+    'core_role\\admins_existing_selector' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/admins_existing_selector.php',
+    'core_role_admins_potential_selector' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/admins_potential_selector.php',
+    'core_role\\admins_potential_selector' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/admins_potential_selector.php',
+    'core_role_allow_role_page' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/allow_role_page.php',
+    'core_role\\allow_role_page' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/allow_role_page.php',
+    'core_role_allow_switch_page' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/allow_switch_page.php',
+    'core_role\\allow_switch_page' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/allow_switch_page.php',
+    'core_role_potential_assignees_course_and_above' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/potential_assignees_course_and_above.php',
+    'core_role\\potential_assignees_course_and_above' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/potential_assignees_course_and_above.php',
+    'core_role_define_role_table_advanced' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/define_role_table_advanced.php',
+    'core_role\\define_role_table_advanced' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/define_role_table_advanced.php',
+    'core_role_check_users_selector' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/check_users_selector.php',
+    'core_role\\check_users_selector' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/check_users_selector.php',
+    'core_role_permission_prohibit_form' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/permission_prohibit_form.php',
+    'core_role\\permission_prohibit_form' => '/home/u723187573/public_html/xavierschool/admin/roles/classes/permission_prohibit_form.php',
+    'mod_assign\\plugininfo\\assignsubmission' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/plugininfo/assignsubmission.php',
+    'mod_assign\\plugininfo\\assignfeedback' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/plugininfo/assignfeedback.php',
+    'mod_assign\\event\\assessable_submitted' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/event/assessable_submitted.php',
+    'mod_assign\\event\\marker_updated' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/event/marker_updated.php',
+    'mod_assign\\event\\submission_duplicated' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/event/submission_duplicated.php',
+    'mod_assign\\event\\workflow_state_updated' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/event/workflow_state_updated.php',
+    'mod_assign\\event\\submission_locked' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/event/submission_locked.php',
+    'mod_assign\\event\\extension_granted' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/event/extension_granted.php',
+    'mod_assign\\event\\identities_revealed' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/event/identities_revealed.php',
+    'mod_assign\\event\\submission_updated' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/event/submission_updated.php',
+    'mod_assign\\event\\submission_unlocked' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/event/submission_unlocked.php',
+    'mod_assign\\event\\statement_accepted' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/event/statement_accepted.php',
+    'mod_assign\\event\\submission_graded' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/event/submission_graded.php',
+    'mod_assign\\event\\submission_status_updated' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/event/submission_status_updated.php',
+    'mod_assign\\event\\all_submissions_downloaded' => '/home/u723187573/public_html/xavierschool/mod/assign/classes/event/all_submissions_downloaded.php',
+    'mod_assignment\\plugininfo\\assignment' => '/home/u723187573/public_html/xavierschool/mod/assignment/classes/plugininfo/assignment.php',
+    'mod_book\\plugininfo\\booktool' => '/home/u723187573/public_html/xavierschool/mod/book/classes/plugininfo/booktool.php',
+    'mod_book\\event\\chapter_viewed' => '/home/u723187573/public_html/xavierschool/mod/book/classes/event/chapter_viewed.php',
+    'mod_book\\event\\instances_list_viewed' => '/home/u723187573/public_html/xavierschool/mod/book/classes/event/instances_list_viewed.php',
+    'mod_book\\event\\chapter_updated' => '/home/u723187573/public_html/xavierschool/mod/book/classes/event/chapter_updated.php',
+    'mod_book\\event\\chapter_created' => '/home/u723187573/public_html/xavierschool/mod/book/classes/event/chapter_created.php',
+    'mod_book\\event\\course_module_viewed' => '/home/u723187573/public_html/xavierschool/mod/book/classes/event/course_module_viewed.php',
+    'mod_book\\event\\chapter_deleted' => '/home/u723187573/public_html/xavierschool/mod/book/classes/event/chapter_deleted.php',
+    'mod_chat\\event\\instances_list_viewed' => '/home/u723187573/public_html/xavierschool/mod/chat/classes/event/instances_list_viewed.php',
+    'mod_chat\\event\\message_sent' => '/home/u723187573/public_html/xavierschool/mod/chat/classes/event/message_sent.php',
+    'mod_chat\\event\\sessions_viewed' => '/home/u723187573/public_html/xavierschool/mod/chat/classes/event/sessions_viewed.php',
+    'mod_choice\\event\\instances_list_viewed' => '/home/u723187573/public_html/xavierschool/mod/choice/classes/event/instances_list_viewed.php',
+    'mod_choice\\event\\report_viewed' => '/home/u723187573/public_html/xavierschool/mod/choice/classes/event/report_viewed.php',
+    'mod_choice\\event\\course_module_viewed' => '/home/u723187573/public_html/xavierschool/mod/choice/classes/event/course_module_viewed.php',
+    'mod_choice\\event\\answer_updated' => '/home/u723187573/public_html/xavierschool/mod/choice/classes/event/answer_updated.php',
+    'mod_choice\\event\\answer_submitted' => '/home/u723187573/public_html/xavierschool/mod/choice/classes/event/answer_submitted.php',
+    'mod_data\\plugininfo\\datafield' => '/home/u723187573/public_html/xavierschool/mod/data/classes/plugininfo/datafield.php',
+    'mod_data\\plugininfo\\datapreset' => '/home/u723187573/public_html/xavierschool/mod/data/classes/plugininfo/datapreset.php',
+    'mod_feedback\\event\\instances_list_viewed' => '/home/u723187573/public_html/xavierschool/mod/feedback/classes/event/instances_list_viewed.php',
+    'mod_feedback\\event\\response_submitted' => '/home/u723187573/public_html/xavierschool/mod/feedback/classes/event/response_submitted.php',
+    'mod_feedback\\event\\response_deleted' => '/home/u723187573/public_html/xavierschool/mod/feedback/classes/event/response_deleted.php',
+    'mod_feedback\\event\\course_module_viewed' => '/home/u723187573/public_html/xavierschool/mod/feedback/classes/event/course_module_viewed.php',
+    'mod_forum_post_form' => '/home/u723187573/public_html/xavierschool/mod/forum/classes/post_form.php',
+    'mod_forum\\post_form' => '/home/u723187573/public_html/xavierschool/mod/forum/classes/post_form.php',
+    'mod_forum\\event\\assessable_uploaded' => '/home/u723187573/public_html/xavierschool/mod/forum/classes/event/assessable_uploaded.php',
+    'mod_forum_observer' => '/home/u723187573/public_html/xavierschool/mod/forum/classes/observer.php',
+    'mod_forum\\observer' => '/home/u723187573/public_html/xavierschool/mod/forum/classes/observer.php',
+    'mod_lesson_file_info' => '/home/u723187573/public_html/xavierschool/mod/lesson/classes/file_info.php',
+    'mod_lesson\\file_info' => '/home/u723187573/public_html/xavierschool/mod/lesson/classes/file_info.php',
+    'mod_lti\\plugininfo\\ltisource' => '/home/u723187573/public_html/xavierschool/mod/lti/classes/plugininfo/ltisource.php',
+    'mod_lti\\event\\unknown_service_api_called' => '/home/u723187573/public_html/xavierschool/mod/lti/classes/event/unknown_service_api_called.php',
+    'mod_page\\event\\instances_list_viewed' => '/home/u723187573/public_html/xavierschool/mod/page/classes/event/instances_list_viewed.php',
+    'mod_page\\event\\course_module_viewed' => '/home/u723187573/public_html/xavierschool/mod/page/classes/event/course_module_viewed.php',
+    'mod_quiz_admin_review_setting' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/admin_review_setting.php',
+    'mod_quiz\\admin_review_setting' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/admin_review_setting.php',
+    'mod_quiz\\plugininfo\\quizaccess' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/plugininfo/quizaccess.php',
+    'mod_quiz\\plugininfo\\quiz' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/plugininfo/quiz.php',
+    'mod_quiz_admin_setting_overduehandling' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/admin_setting_overduehandling.php',
+    'mod_quiz\\admin_setting_overduehandling' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/admin_setting_overduehandling.php',
+    'mod_quiz\\event\\attempt_started' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/event/attempt_started.php',
+    'mod_quiz\\event\\attempt_becameoverdue' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/event/attempt_becameoverdue.php',
+    'mod_quiz\\event\\attempt_submitted' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/event/attempt_submitted.php',
+    'mod_quiz\\event\\attempt_abandoned' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/event/attempt_abandoned.php',
+    'mod_quiz_admin_setting_browsersecurity' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/admin_setting_browsersecurity.php',
+    'mod_quiz\\admin_setting_browsersecurity' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/admin_setting_browsersecurity.php',
+    'mod_quiz_admin_setting_user_image' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/admin_setting_user_image.php',
+    'mod_quiz\\admin_setting_user_image' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/admin_setting_user_image.php',
+    'mod_quiz_admin_setting_grademethod' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/admin_setting_grademethod.php',
+    'mod_quiz\\admin_setting_grademethod' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/admin_setting_grademethod.php',
+    'mod_quiz_group_observers' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/group_observers.php',
+    'mod_quiz\\group_observers' => '/home/u723187573/public_html/xavierschool/mod/quiz/classes/group_observers.php',
+    'mod_scorm\\plugininfo\\scormreport' => '/home/u723187573/public_html/xavierschool/mod/scorm/classes/plugininfo/scormreport.php',
+    'mod_workshop\\plugininfo\\workshopallocation' => '/home/u723187573/public_html/xavierschool/mod/workshop/classes/plugininfo/workshopallocation.php',
+    'mod_workshop\\plugininfo\\workshopeval' => '/home/u723187573/public_html/xavierschool/mod/workshop/classes/plugininfo/workshopeval.php',
+    'mod_workshop\\plugininfo\\workshopform' => '/home/u723187573/public_html/xavierschool/mod/workshop/classes/plugininfo/workshopform.php',
+    'mod_workshop\\event\\assessable_uploaded' => '/home/u723187573/public_html/xavierschool/mod/workshop/classes/event/assessable_uploaded.php',
+    'mod_workshop\\event\\course_module_viewed' => '/home/u723187573/public_html/xavierschool/mod/workshop/classes/event/course_module_viewed.php',
+    'calendartype_gregorian_structure' => '/home/u723187573/public_html/xavierschool/calendar/type/gregorian/classes/structure.php',
+    'calendartype_gregorian\\structure' => '/home/u723187573/public_html/xavierschool/calendar/type/gregorian/classes/structure.php',
+    'enrol_category_observer' => '/home/u723187573/public_html/xavierschool/enrol/category/classes/observer.php',
+    'enrol_category\\observer' => '/home/u723187573/public_html/xavierschool/enrol/category/classes/observer.php',
+    'enrol_meta_observer' => '/home/u723187573/public_html/xavierschool/enrol/meta/classes/observer.php',
+    'enrol_meta\\observer' => '/home/u723187573/public_html/xavierschool/enrol/meta/classes/observer.php',
+    'editor_tinymce\\plugininfo\\tinymce' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/classes/plugininfo/tinymce.php',
+    'editor_tinymce_plugin' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/classes/plugin.php',
+    'editor_tinymce\\plugin' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/classes/plugin.php',
+    'report_log\\event\\content_viewed' => '/home/u723187573/public_html/xavierschool/report/log/classes/event/content_viewed.php',
+    'report_loglive\\event\\content_viewed' => '/home/u723187573/public_html/xavierschool/report/loglive/classes/event/content_viewed.php',
+    'report_outline\\event\\content_viewed' => '/home/u723187573/public_html/xavierschool/report/outline/classes/event/content_viewed.php',
+    'report_participation\\event\\content_viewed' => '/home/u723187573/public_html/xavierschool/report/participation/classes/event/content_viewed.php',
+    'report_stats\\event\\content_viewed' => '/home/u723187573/public_html/xavierschool/report/stats/classes/event/content_viewed.php',
+    'tool_capability_settings_form' => '/home/u723187573/public_html/xavierschool/admin/tool/capability/classes/settings_form.php',
+    'tool_capability\\settings_form' => '/home/u723187573/public_html/xavierschool/admin/tool/capability/classes/settings_form.php',
+    'tool_generator_site_backend' => '/home/u723187573/public_html/xavierschool/admin/tool/generator/classes/site_backend.php',
+    'tool_generator\\site_backend' => '/home/u723187573/public_html/xavierschool/admin/tool/generator/classes/site_backend.php',
+    'tool_generator_course_backend' => '/home/u723187573/public_html/xavierschool/admin/tool/generator/classes/course_backend.php',
+    'tool_generator\\course_backend' => '/home/u723187573/public_html/xavierschool/admin/tool/generator/classes/course_backend.php',
+    'tool_generator_make_testplan_form' => '/home/u723187573/public_html/xavierschool/admin/tool/generator/classes/make_testplan_form.php',
+    'tool_generator\\make_testplan_form' => '/home/u723187573/public_html/xavierschool/admin/tool/generator/classes/make_testplan_form.php',
+    'tool_generator_make_course_form' => '/home/u723187573/public_html/xavierschool/admin/tool/generator/classes/make_course_form.php',
+    'tool_generator\\make_course_form' => '/home/u723187573/public_html/xavierschool/admin/tool/generator/classes/make_course_form.php',
+    'tool_generator_backend' => '/home/u723187573/public_html/xavierschool/admin/tool/generator/classes/backend.php',
+    'tool_generator\\backend' => '/home/u723187573/public_html/xavierschool/admin/tool/generator/classes/backend.php',
+    'tool_generator_testplan_backend' => '/home/u723187573/public_html/xavierschool/admin/tool/generator/classes/testplan_backend.php',
+    'tool_generator\\testplan_backend' => '/home/u723187573/public_html/xavierschool/admin/tool/generator/classes/testplan_backend.php',
+    'tool_installaddon_pluginfo_client' => '/home/u723187573/public_html/xavierschool/admin/tool/installaddon/classes/pluginfo_client.php',
+    'tool_installaddon\\pluginfo_client' => '/home/u723187573/public_html/xavierschool/admin/tool/installaddon/classes/pluginfo_client.php',
+    'tool_installaddon_validator' => '/home/u723187573/public_html/xavierschool/admin/tool/installaddon/classes/validator.php',
+    'tool_installaddon\\validator' => '/home/u723187573/public_html/xavierschool/admin/tool/installaddon/classes/validator.php',
+    'tool_installaddon_installfromzip_form' => '/home/u723187573/public_html/xavierschool/admin/tool/installaddon/classes/installfromzip_form.php',
+    'tool_installaddon\\installfromzip_form' => '/home/u723187573/public_html/xavierschool/admin/tool/installaddon/classes/installfromzip_form.php',
+    'tool_installaddon_installer' => '/home/u723187573/public_html/xavierschool/admin/tool/installaddon/classes/installer.php',
+    'tool_installaddon\\installer' => '/home/u723187573/public_html/xavierschool/admin/tool/installaddon/classes/installer.php',
+    'tool_replace_form' => '/home/u723187573/public_html/xavierschool/admin/tool/replace/classes/form.php',
+    'tool_replace\\form' => '/home/u723187573/public_html/xavierschool/admin/tool/replace/classes/form.php',
+    'tool_uploadcourse_helper' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/classes/helper.php',
+    'tool_uploadcourse\\helper' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/classes/helper.php',
+    'tool_uploadcourse_processor' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/classes/processor.php',
+    'tool_uploadcourse\\processor' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/classes/processor.php',
+    'tool_uploadcourse_course' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/classes/course.php',
+    'tool_uploadcourse\\course' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/classes/course.php',
+    'tool_uploadcourse_tracker' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/classes/tracker.php',
+    'tool_uploadcourse\\tracker' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/classes/tracker.php',
+    'tool_uploadcourse_step2_form' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/classes/step2_form.php',
+    'tool_uploadcourse\\step2_form' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/classes/step2_form.php',
+    'tool_uploadcourse_step1_form' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/classes/step1_form.php',
+    'tool_uploadcourse\\step1_form' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/classes/step1_form.php',
+    'tool_uploadcourse_base_form' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/classes/base_form.php',
+    'tool_uploadcourse\\base_form' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/classes/base_form.php',
+    'assignsubmission_file\\event\\assessable_uploaded' => '/home/u723187573/public_html/xavierschool/mod/assign/submission/file/classes/event/assessable_uploaded.php',
+    'assignsubmission_onlinetext\\event\\assessable_uploaded' => '/home/u723187573/public_html/xavierschool/mod/assign/submission/onlinetext/classes/event/assessable_uploaded.php',
+    'assignfeedback_editpdf_document_services' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/document_services.php',
+    'assignfeedback_editpdf\\document_services' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/document_services.php',
+    'assignfeedback_editpdf_renderer' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/renderer.php',
+    'assignfeedback_editpdf\\renderer' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/renderer.php',
+    'assignfeedback_editpdf_pdf' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/pdf.php',
+    'assignfeedback_editpdf\\pdf' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/pdf.php',
+    'assignfeedback_editpdf_comments_quick_list' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/comments_quick_list.php',
+    'assignfeedback_editpdf\\comments_quick_list' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/comments_quick_list.php',
+    'assignfeedback_editpdf_widget' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/widget.php',
+    'assignfeedback_editpdf\\widget' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/widget.php',
+    'assignfeedback_editpdf_comment' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/comment.php',
+    'assignfeedback_editpdf\\comment' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/comment.php',
+    'assignfeedback_editpdf_page_editor' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/page_editor.php',
+    'assignfeedback_editpdf\\page_editor' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/page_editor.php',
+    'assignfeedback_editpdf_annotation' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/annotation.php',
+    'assignfeedback_editpdf\\annotation' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/classes/annotation.php',
+    'assignment_online\\event\\assessable_uploaded' => '/home/u723187573/public_html/xavierschool/mod/assignment/type/online/classes/event/assessable_uploaded.php',
+    'assignment_upload\\event\\assessable_submitted' => '/home/u723187573/public_html/xavierschool/mod/assignment/type/upload/classes/event/assessable_submitted.php',
+    'assignment_upload\\event\\assessable_uploaded' => '/home/u723187573/public_html/xavierschool/mod/assignment/type/upload/classes/event/assessable_uploaded.php',
+    'booktool_exportimscp\\event\\book_exported' => '/home/u723187573/public_html/xavierschool/mod/book/tool/exportimscp/classes/event/book_exported.php',
+    'booktool_print\\event\\book_printed' => '/home/u723187573/public_html/xavierschool/mod/book/tool/print/classes/event/book_printed.php',
+    'booktool_print\\event\\chapter_printed' => '/home/u723187573/public_html/xavierschool/mod/book/tool/print/classes/event/chapter_printed.php',
+    'quiz_statistics_calculated' => '/home/u723187573/public_html/xavierschool/mod/quiz/report/statistics/classes/calculated.php',
+    'quiz_statistics\\calculated' => '/home/u723187573/public_html/xavierschool/mod/quiz/report/statistics/classes/calculated.php',
+    'quiz_statistics_calculator' => '/home/u723187573/public_html/xavierschool/mod/quiz/report/statistics/classes/calculator.php',
+    'quiz_statistics\\calculator' => '/home/u723187573/public_html/xavierschool/mod/quiz/report/statistics/classes/calculator.php',
+    'workshopallocation_scheduled_observer' => '/home/u723187573/public_html/xavierschool/mod/workshop/allocation/scheduled/classes/observer.php',
+    'workshopallocation_scheduled\\observer' => '/home/u723187573/public_html/xavierschool/mod/workshop/allocation/scheduled/classes/observer.php',
+    'tinymce_spellchecker_SpellChecker' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker/classes/SpellChecker.php',
+    'tinymce_spellchecker\\SpellChecker' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker/classes/SpellChecker.php',
+    'tinymce_spellchecker_PSpellShell' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker/classes/PSpellShell.php',
+    'tinymce_spellchecker\\PSpellShell' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker/classes/PSpellShell.php',
+    'tinymce_spellchecker_EnchantSpell' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker/classes/EnchantSpell.php',
+    'tinymce_spellchecker\\EnchantSpell' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker/classes/EnchantSpell.php',
+    'tinymce_spellchecker\\utils\\Logger' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker/classes/utils/Logger.php',
+    'tinymce_spellchecker\\utils\\JSON' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker/classes/utils/JSON.php',
+    'tinymce_spellchecker_GoogleSpell' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker/classes/GoogleSpell.php',
+    'tinymce_spellchecker\\GoogleSpell' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker/classes/GoogleSpell.php',
+    'tinymce_spellchecker_PSpell' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker/classes/PSpell.php',
+    'tinymce_spellchecker\\PSpell' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker/classes/PSpell.php',
+    'textlib' => '/home/u723187573/public_html/xavierschool/lib/classes/text.php',
+    'collatorlib' => '/home/u723187573/public_html/xavierschool/lib/classes/collator.php',
+  ),
+  'filemap' => 
+  array (
+    'lib.php' => 
+    array (
+      'qtype' => 
+      array (
+        'calculated' => '/home/u723187573/public_html/xavierschool/question/type/calculated/lib.php',
+        'calculatedmulti' => '/home/u723187573/public_html/xavierschool/question/type/calculatedmulti/lib.php',
+        'calculatedsimple' => '/home/u723187573/public_html/xavierschool/question/type/calculatedsimple/lib.php',
+        'essay' => '/home/u723187573/public_html/xavierschool/question/type/essay/lib.php',
+        'match' => '/home/u723187573/public_html/xavierschool/question/type/match/lib.php',
+        'multichoice' => '/home/u723187573/public_html/xavierschool/question/type/multichoice/lib.php',
+        'numerical' => '/home/u723187573/public_html/xavierschool/question/type/numerical/lib.php',
+        'randomsamatch' => '/home/u723187573/public_html/xavierschool/question/type/randomsamatch/lib.php',
+        'shortanswer' => '/home/u723187573/public_html/xavierschool/question/type/shortanswer/lib.php',
+        'truefalse' => '/home/u723187573/public_html/xavierschool/question/type/truefalse/lib.php',
+      ),
+      'mod' => 
+      array (
+        'assign' => '/home/u723187573/public_html/xavierschool/mod/assign/lib.php',
+        'assignment' => '/home/u723187573/public_html/xavierschool/mod/assignment/lib.php',
+        'book' => '/home/u723187573/public_html/xavierschool/mod/book/lib.php',
+        'chat' => '/home/u723187573/public_html/xavierschool/mod/chat/lib.php',
+        'choice' => '/home/u723187573/public_html/xavierschool/mod/choice/lib.php',
+        'data' => '/home/u723187573/public_html/xavierschool/mod/data/lib.php',
+        'feedback' => '/home/u723187573/public_html/xavierschool/mod/feedback/lib.php',
+        'folder' => '/home/u723187573/public_html/xavierschool/mod/folder/lib.php',
+        'forum' => '/home/u723187573/public_html/xavierschool/mod/forum/lib.php',
+        'glossary' => '/home/u723187573/public_html/xavierschool/mod/glossary/lib.php',
+        'imscp' => '/home/u723187573/public_html/xavierschool/mod/imscp/lib.php',
+        'label' => '/home/u723187573/public_html/xavierschool/mod/label/lib.php',
+        'lesson' => '/home/u723187573/public_html/xavierschool/mod/lesson/lib.php',
+        'lti' => '/home/u723187573/public_html/xavierschool/mod/lti/lib.php',
+        'page' => '/home/u723187573/public_html/xavierschool/mod/page/lib.php',
+        'quiz' => '/home/u723187573/public_html/xavierschool/mod/quiz/lib.php',
+        'resource' => '/home/u723187573/public_html/xavierschool/mod/resource/lib.php',
+        'scorm' => '/home/u723187573/public_html/xavierschool/mod/scorm/lib.php',
+        'survey' => '/home/u723187573/public_html/xavierschool/mod/survey/lib.php',
+        'url' => '/home/u723187573/public_html/xavierschool/mod/url/lib.php',
+        'wiki' => '/home/u723187573/public_html/xavierschool/mod/wiki/lib.php',
+        'workshop' => '/home/u723187573/public_html/xavierschool/mod/workshop/lib.php',
+      ),
+      'auth' => 
+      array (
+      ),
+      'calendartype' => 
+      array (
+      ),
+      'enrol' => 
+      array (
+        'category' => '/home/u723187573/public_html/xavierschool/enrol/category/lib.php',
+        'cohort' => '/home/u723187573/public_html/xavierschool/enrol/cohort/lib.php',
+        'database' => '/home/u723187573/public_html/xavierschool/enrol/database/lib.php',
+        'flatfile' => '/home/u723187573/public_html/xavierschool/enrol/flatfile/lib.php',
+        'guest' => '/home/u723187573/public_html/xavierschool/enrol/guest/lib.php',
+        'imsenterprise' => '/home/u723187573/public_html/xavierschool/enrol/imsenterprise/lib.php',
+        'ldap' => '/home/u723187573/public_html/xavierschool/enrol/ldap/lib.php',
+        'manual' => '/home/u723187573/public_html/xavierschool/enrol/manual/lib.php',
+        'meta' => '/home/u723187573/public_html/xavierschool/enrol/meta/lib.php',
+        'mnet' => '/home/u723187573/public_html/xavierschool/enrol/mnet/lib.php',
+        'paypal' => '/home/u723187573/public_html/xavierschool/enrol/paypal/lib.php',
+        'self' => '/home/u723187573/public_html/xavierschool/enrol/self/lib.php',
+      ),
+      'message' => 
+      array (
+      ),
+      'block' => 
+      array (
+        'comments' => '/home/u723187573/public_html/xavierschool/blocks/comments/lib.php',
+        'html' => '/home/u723187573/public_html/xavierschool/blocks/html/lib.php',
+      ),
+      'filter' => 
+      array (
+        'tex' => '/home/u723187573/public_html/xavierschool/filter/tex/lib.php',
+      ),
+      'editor' => 
+      array (
+        'textarea' => '/home/u723187573/public_html/xavierschool/lib/editor/textarea/lib.php',
+        'tinymce' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/lib.php',
+      ),
+      'format' => 
+      array (
+        'singleactivity' => '/home/u723187573/public_html/xavierschool/course/format/singleactivity/lib.php',
+        'social' => '/home/u723187573/public_html/xavierschool/course/format/social/lib.php',
+        'topics' => '/home/u723187573/public_html/xavierschool/course/format/topics/lib.php',
+        'weeks' => '/home/u723187573/public_html/xavierschool/course/format/weeks/lib.php',
+      ),
+      'profilefield' => 
+      array (
+      ),
+      'report' => 
+      array (
+        'completion' => '/home/u723187573/public_html/xavierschool/report/completion/lib.php',
+        'log' => '/home/u723187573/public_html/xavierschool/report/log/lib.php',
+        'loglive' => '/home/u723187573/public_html/xavierschool/report/loglive/lib.php',
+        'outline' => '/home/u723187573/public_html/xavierschool/report/outline/lib.php',
+        'participation' => '/home/u723187573/public_html/xavierschool/report/participation/lib.php',
+        'progress' => '/home/u723187573/public_html/xavierschool/report/progress/lib.php',
+        'stats' => '/home/u723187573/public_html/xavierschool/report/stats/lib.php',
+      ),
+      'coursereport' => 
+      array (
+      ),
+      'gradeexport' => 
+      array (
+      ),
+      'gradeimport' => 
+      array (
+        'xml' => '/home/u723187573/public_html/xavierschool/grade/import/xml/lib.php',
+      ),
+      'gradereport' => 
+      array (
+        'grader' => '/home/u723187573/public_html/xavierschool/grade/report/grader/lib.php',
+        'overview' => '/home/u723187573/public_html/xavierschool/grade/report/overview/lib.php',
+        'user' => '/home/u723187573/public_html/xavierschool/grade/report/user/lib.php',
+      ),
+      'gradingform' => 
+      array (
+        'guide' => '/home/u723187573/public_html/xavierschool/grade/grading/form/guide/lib.php',
+        'rubric' => '/home/u723187573/public_html/xavierschool/grade/grading/form/rubric/lib.php',
+      ),
+      'mnetservice' => 
+      array (
+      ),
+      'webservice' => 
+      array (
+        'rest' => '/home/u723187573/public_html/xavierschool/webservice/rest/lib.php',
+        'soap' => '/home/u723187573/public_html/xavierschool/webservice/soap/lib.php',
+        'xmlrpc' => '/home/u723187573/public_html/xavierschool/webservice/xmlrpc/lib.php',
+      ),
+      'repository' => 
+      array (
+        'alfresco' => '/home/u723187573/public_html/xavierschool/repository/alfresco/lib.php',
+        'areafiles' => '/home/u723187573/public_html/xavierschool/repository/areafiles/lib.php',
+        'boxnet' => '/home/u723187573/public_html/xavierschool/repository/boxnet/lib.php',
+        'coursefiles' => '/home/u723187573/public_html/xavierschool/repository/coursefiles/lib.php',
+        'dropbox' => '/home/u723187573/public_html/xavierschool/repository/dropbox/lib.php',
+        'equella' => '/home/u723187573/public_html/xavierschool/repository/equella/lib.php',
+        'filesystem' => '/home/u723187573/public_html/xavierschool/repository/filesystem/lib.php',
+        'flickr' => '/home/u723187573/public_html/xavierschool/repository/flickr/lib.php',
+        'flickr_public' => '/home/u723187573/public_html/xavierschool/repository/flickr_public/lib.php',
+        'googledocs' => '/home/u723187573/public_html/xavierschool/repository/googledocs/lib.php',
+        'local' => '/home/u723187573/public_html/xavierschool/repository/local/lib.php',
+        'merlot' => '/home/u723187573/public_html/xavierschool/repository/merlot/lib.php',
+        'picasa' => '/home/u723187573/public_html/xavierschool/repository/picasa/lib.php',
+        'recent' => '/home/u723187573/public_html/xavierschool/repository/recent/lib.php',
+        's3' => '/home/u723187573/public_html/xavierschool/repository/s3/lib.php',
+        'skydrive' => '/home/u723187573/public_html/xavierschool/repository/skydrive/lib.php',
+        'upload' => '/home/u723187573/public_html/xavierschool/repository/upload/lib.php',
+        'url' => '/home/u723187573/public_html/xavierschool/repository/url/lib.php',
+        'user' => '/home/u723187573/public_html/xavierschool/repository/user/lib.php',
+        'webdav' => '/home/u723187573/public_html/xavierschool/repository/webdav/lib.php',
+        'wikimedia' => '/home/u723187573/public_html/xavierschool/repository/wikimedia/lib.php',
+        'youtube' => '/home/u723187573/public_html/xavierschool/repository/youtube/lib.php',
+      ),
+      'portfolio' => 
+      array (
+        'boxnet' => '/home/u723187573/public_html/xavierschool/portfolio/boxnet/lib.php',
+        'download' => '/home/u723187573/public_html/xavierschool/portfolio/download/lib.php',
+        'flickr' => '/home/u723187573/public_html/xavierschool/portfolio/flickr/lib.php',
+        'googledocs' => '/home/u723187573/public_html/xavierschool/portfolio/googledocs/lib.php',
+        'mahara' => '/home/u723187573/public_html/xavierschool/portfolio/mahara/lib.php',
+        'picasa' => '/home/u723187573/public_html/xavierschool/portfolio/picasa/lib.php',
+      ),
+      'qbehaviour' => 
+      array (
+      ),
+      'qformat' => 
+      array (
+        'xhtml' => '/home/u723187573/public_html/xavierschool/question/format/xhtml/lib.php',
+      ),
+      'plagiarism' => 
+      array (
+      ),
+      'tool' => 
+      array (
+        'customlang' => '/home/u723187573/public_html/xavierschool/admin/tool/customlang/lib.php',
+        'generator' => '/home/u723187573/public_html/xavierschool/admin/tool/generator/lib.php',
+        'langimport' => '/home/u723187573/public_html/xavierschool/admin/tool/langimport/lib.php',
+        'qeupgradehelper' => '/home/u723187573/public_html/xavierschool/admin/tool/qeupgradehelper/lib.php',
+      ),
+      'cachestore' => 
+      array (
+        'file' => '/home/u723187573/public_html/xavierschool/cache/stores/file/lib.php',
+        'memcache' => '/home/u723187573/public_html/xavierschool/cache/stores/memcache/lib.php',
+        'memcached' => '/home/u723187573/public_html/xavierschool/cache/stores/memcached/lib.php',
+        'mongodb' => '/home/u723187573/public_html/xavierschool/cache/stores/mongodb/lib.php',
+        'session' => '/home/u723187573/public_html/xavierschool/cache/stores/session/lib.php',
+        'static' => '/home/u723187573/public_html/xavierschool/cache/stores/static/lib.php',
+      ),
+      'cachelock' => 
+      array (
+        'file' => '/home/u723187573/public_html/xavierschool/cache/locks/file/lib.php',
+      ),
+      'theme' => 
+      array (
+        'afterburner' => '/home/u723187573/public_html/xavierschool/theme/afterburner/lib.php',
+        'anomaly' => '/home/u723187573/public_html/xavierschool/theme/anomaly/lib.php',
+        'arialist' => '/home/u723187573/public_html/xavierschool/theme/arialist/lib.php',
+        'brick' => '/home/u723187573/public_html/xavierschool/theme/brick/lib.php',
+        'clean' => '/home/u723187573/public_html/xavierschool/theme/clean/lib.php',
+        'formal_white' => '/home/u723187573/public_html/xavierschool/theme/formal_white/lib.php',
+        'fusion' => '/home/u723187573/public_html/xavierschool/theme/fusion/lib.php',
+        'magazine' => '/home/u723187573/public_html/xavierschool/theme/magazine/lib.php',
+        'nimble' => '/home/u723187573/public_html/xavierschool/theme/nimble/lib.php',
+        'nonzero' => '/home/u723187573/public_html/xavierschool/theme/nonzero/lib.php',
+        'overlay' => '/home/u723187573/public_html/xavierschool/theme/overlay/lib.php',
+        'sky_high' => '/home/u723187573/public_html/xavierschool/theme/sky_high/lib.php',
+        'splash' => '/home/u723187573/public_html/xavierschool/theme/splash/lib.php',
+      ),
+      'assignsubmission' => 
+      array (
+        'comments' => '/home/u723187573/public_html/xavierschool/mod/assign/submission/comments/lib.php',
+        'file' => '/home/u723187573/public_html/xavierschool/mod/assign/submission/file/lib.php',
+        'onlinetext' => '/home/u723187573/public_html/xavierschool/mod/assign/submission/onlinetext/lib.php',
+      ),
+      'assignfeedback' => 
+      array (
+        'editpdf' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/lib.php',
+        'file' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/file/lib.php',
+      ),
+      'assignment' => 
+      array (
+      ),
+      'booktool' => 
+      array (
+        'exportimscp' => '/home/u723187573/public_html/xavierschool/mod/book/tool/exportimscp/lib.php',
+        'importhtml' => '/home/u723187573/public_html/xavierschool/mod/book/tool/importhtml/lib.php',
+        'print' => '/home/u723187573/public_html/xavierschool/mod/book/tool/print/lib.php',
+      ),
+      'datafield' => 
+      array (
+      ),
+      'datapreset' => 
+      array (
+      ),
+      'ltisource' => 
+      array (
+      ),
+      'quiz' => 
+      array (
+        'statistics' => '/home/u723187573/public_html/xavierschool/mod/quiz/report/statistics/lib.php',
+      ),
+      'quizaccess' => 
+      array (
+      ),
+      'scormreport' => 
+      array (
+      ),
+      'workshopform' => 
+      array (
+        'accumulative' => '/home/u723187573/public_html/xavierschool/mod/workshop/form/accumulative/lib.php',
+        'comments' => '/home/u723187573/public_html/xavierschool/mod/workshop/form/comments/lib.php',
+        'numerrors' => '/home/u723187573/public_html/xavierschool/mod/workshop/form/numerrors/lib.php',
+        'rubric' => '/home/u723187573/public_html/xavierschool/mod/workshop/form/rubric/lib.php',
+      ),
+      'workshopallocation' => 
+      array (
+        'manual' => '/home/u723187573/public_html/xavierschool/mod/workshop/allocation/manual/lib.php',
+        'random' => '/home/u723187573/public_html/xavierschool/mod/workshop/allocation/random/lib.php',
+        'scheduled' => '/home/u723187573/public_html/xavierschool/mod/workshop/allocation/scheduled/lib.php',
+      ),
+      'workshopeval' => 
+      array (
+        'best' => '/home/u723187573/public_html/xavierschool/mod/workshop/eval/best/lib.php',
+      ),
+      'tinymce' => 
+      array (
+        'ctrlhelp' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/ctrlhelp/lib.php',
+        'dragmath' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/dragmath/lib.php',
+        'managefiles' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/managefiles/lib.php',
+        'moodleemoticon' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/moodleemoticon/lib.php',
+        'moodleimage' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/moodleimage/lib.php',
+        'moodlemedia' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/moodlemedia/lib.php',
+        'moodlenolink' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/moodlenolink/lib.php',
+        'pdw' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/pdw/lib.php',
+        'spellchecker' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker/lib.php',
+        'wrap' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/wrap/lib.php',
+      ),
+      'local' => 
+      array (
+      ),
+    ),
+    'settings.php' => 
+    array (
+      'qtype' => 
+      array (
+      ),
+      'mod' => 
+      array (
+        'assign' => '/home/u723187573/public_html/xavierschool/mod/assign/settings.php',
+        'assignment' => '/home/u723187573/public_html/xavierschool/mod/assignment/settings.php',
+        'book' => '/home/u723187573/public_html/xavierschool/mod/book/settings.php',
+        'chat' => '/home/u723187573/public_html/xavierschool/mod/chat/settings.php',
+        'data' => '/home/u723187573/public_html/xavierschool/mod/data/settings.php',
+        'feedback' => '/home/u723187573/public_html/xavierschool/mod/feedback/settings.php',
+        'folder' => '/home/u723187573/public_html/xavierschool/mod/folder/settings.php',
+        'forum' => '/home/u723187573/public_html/xavierschool/mod/forum/settings.php',
+        'glossary' => '/home/u723187573/public_html/xavierschool/mod/glossary/settings.php',
+        'imscp' => '/home/u723187573/public_html/xavierschool/mod/imscp/settings.php',
+        'label' => '/home/u723187573/public_html/xavierschool/mod/label/settings.php',
+        'lesson' => '/home/u723187573/public_html/xavierschool/mod/lesson/settings.php',
+        'lti' => '/home/u723187573/public_html/xavierschool/mod/lti/settings.php',
+        'page' => '/home/u723187573/public_html/xavierschool/mod/page/settings.php',
+        'quiz' => '/home/u723187573/public_html/xavierschool/mod/quiz/settings.php',
+        'resource' => '/home/u723187573/public_html/xavierschool/mod/resource/settings.php',
+        'scorm' => '/home/u723187573/public_html/xavierschool/mod/scorm/settings.php',
+        'url' => '/home/u723187573/public_html/xavierschool/mod/url/settings.php',
+        'workshop' => '/home/u723187573/public_html/xavierschool/mod/workshop/settings.php',
+      ),
+      'auth' => 
+      array (
+      ),
+      'calendartype' => 
+      array (
+      ),
+      'enrol' => 
+      array (
+        'category' => '/home/u723187573/public_html/xavierschool/enrol/category/settings.php',
+        'cohort' => '/home/u723187573/public_html/xavierschool/enrol/cohort/settings.php',
+        'database' => '/home/u723187573/public_html/xavierschool/enrol/database/settings.php',
+        'flatfile' => '/home/u723187573/public_html/xavierschool/enrol/flatfile/settings.php',
+        'guest' => '/home/u723187573/public_html/xavierschool/enrol/guest/settings.php',
+        'imsenterprise' => '/home/u723187573/public_html/xavierschool/enrol/imsenterprise/settings.php',
+        'ldap' => '/home/u723187573/public_html/xavierschool/enrol/ldap/settings.php',
+        'manual' => '/home/u723187573/public_html/xavierschool/enrol/manual/settings.php',
+        'meta' => '/home/u723187573/public_html/xavierschool/enrol/meta/settings.php',
+        'mnet' => '/home/u723187573/public_html/xavierschool/enrol/mnet/settings.php',
+        'paypal' => '/home/u723187573/public_html/xavierschool/enrol/paypal/settings.php',
+        'self' => '/home/u723187573/public_html/xavierschool/enrol/self/settings.php',
+      ),
+      'message' => 
+      array (
+        'email' => '/home/u723187573/public_html/xavierschool/message/output/email/settings.php',
+        'jabber' => '/home/u723187573/public_html/xavierschool/message/output/jabber/settings.php',
+      ),
+      'block' => 
+      array (
+        'course_list' => '/home/u723187573/public_html/xavierschool/blocks/course_list/settings.php',
+        'course_overview' => '/home/u723187573/public_html/xavierschool/blocks/course_overview/settings.php',
+        'html' => '/home/u723187573/public_html/xavierschool/blocks/html/settings.php',
+        'online_users' => '/home/u723187573/public_html/xavierschool/blocks/online_users/settings.php',
+        'rss_client' => '/home/u723187573/public_html/xavierschool/blocks/rss_client/settings.php',
+        'section_links' => '/home/u723187573/public_html/xavierschool/blocks/section_links/settings.php',
+        'tags' => '/home/u723187573/public_html/xavierschool/blocks/tags/settings.php',
+      ),
+      'filter' => 
+      array (
+        'censor' => '/home/u723187573/public_html/xavierschool/filter/censor/settings.php',
+        'emoticon' => '/home/u723187573/public_html/xavierschool/filter/emoticon/settings.php',
+        'multilang' => '/home/u723187573/public_html/xavierschool/filter/multilang/settings.php',
+        'tex' => '/home/u723187573/public_html/xavierschool/filter/tex/settings.php',
+        'urltolink' => '/home/u723187573/public_html/xavierschool/filter/urltolink/settings.php',
+      ),
+      'editor' => 
+      array (
+        'tinymce' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/settings.php',
+      ),
+      'format' => 
+      array (
+        'singleactivity' => '/home/u723187573/public_html/xavierschool/course/format/singleactivity/settings.php',
+      ),
+      'profilefield' => 
+      array (
+      ),
+      'report' => 
+      array (
+        'backups' => '/home/u723187573/public_html/xavierschool/report/backups/settings.php',
+        'configlog' => '/home/u723187573/public_html/xavierschool/report/configlog/settings.php',
+        'courseoverview' => '/home/u723187573/public_html/xavierschool/report/courseoverview/settings.php',
+        'log' => '/home/u723187573/public_html/xavierschool/report/log/settings.php',
+        'loglive' => '/home/u723187573/public_html/xavierschool/report/loglive/settings.php',
+        'performance' => '/home/u723187573/public_html/xavierschool/report/performance/settings.php',
+        'questioninstances' => '/home/u723187573/public_html/xavierschool/report/questioninstances/settings.php',
+        'security' => '/home/u723187573/public_html/xavierschool/report/security/settings.php',
+        'stats' => '/home/u723187573/public_html/xavierschool/report/stats/settings.php',
+      ),
+      'coursereport' => 
+      array (
+      ),
+      'gradeexport' => 
+      array (
+      ),
+      'gradeimport' => 
+      array (
+      ),
+      'gradereport' => 
+      array (
+        'grader' => '/home/u723187573/public_html/xavierschool/grade/report/grader/settings.php',
+        'overview' => '/home/u723187573/public_html/xavierschool/grade/report/overview/settings.php',
+        'user' => '/home/u723187573/public_html/xavierschool/grade/report/user/settings.php',
+      ),
+      'gradingform' => 
+      array (
+      ),
+      'mnetservice' => 
+      array (
+      ),
+      'webservice' => 
+      array (
+      ),
+      'repository' => 
+      array (
+      ),
+      'portfolio' => 
+      array (
+      ),
+      'qbehaviour' => 
+      array (
+      ),
+      'qformat' => 
+      array (
+      ),
+      'plagiarism' => 
+      array (
+      ),
+      'tool' => 
+      array (
+        'assignmentupgrade' => '/home/u723187573/public_html/xavierschool/admin/tool/assignmentupgrade/settings.php',
+        'behat' => '/home/u723187573/public_html/xavierschool/admin/tool/behat/settings.php',
+        'capability' => '/home/u723187573/public_html/xavierschool/admin/tool/capability/settings.php',
+        'customlang' => '/home/u723187573/public_html/xavierschool/admin/tool/customlang/settings.php',
+        'dbtransfer' => '/home/u723187573/public_html/xavierschool/admin/tool/dbtransfer/settings.php',
+        'generator' => '/home/u723187573/public_html/xavierschool/admin/tool/generator/settings.php',
+        'health' => '/home/u723187573/public_html/xavierschool/admin/tool/health/settings.php',
+        'innodb' => '/home/u723187573/public_html/xavierschool/admin/tool/innodb/settings.php',
+        'installaddon' => '/home/u723187573/public_html/xavierschool/admin/tool/installaddon/settings.php',
+        'langimport' => '/home/u723187573/public_html/xavierschool/admin/tool/langimport/settings.php',
+        'multilangupgrade' => '/home/u723187573/public_html/xavierschool/admin/tool/multilangupgrade/settings.php',
+        'phpunit' => '/home/u723187573/public_html/xavierschool/admin/tool/phpunit/settings.php',
+        'profiling' => '/home/u723187573/public_html/xavierschool/admin/tool/profiling/settings.php',
+        'qeupgradehelper' => '/home/u723187573/public_html/xavierschool/admin/tool/qeupgradehelper/settings.php',
+        'replace' => '/home/u723187573/public_html/xavierschool/admin/tool/replace/settings.php',
+        'spamcleaner' => '/home/u723187573/public_html/xavierschool/admin/tool/spamcleaner/settings.php',
+        'timezoneimport' => '/home/u723187573/public_html/xavierschool/admin/tool/timezoneimport/settings.php',
+        'unsuproles' => '/home/u723187573/public_html/xavierschool/admin/tool/unsuproles/settings.php',
+        'uploadcourse' => '/home/u723187573/public_html/xavierschool/admin/tool/uploadcourse/settings.php',
+        'uploaduser' => '/home/u723187573/public_html/xavierschool/admin/tool/uploaduser/settings.php',
+        'xmldb' => '/home/u723187573/public_html/xavierschool/admin/tool/xmldb/settings.php',
+      ),
+      'cachestore' => 
+      array (
+        'memcache' => '/home/u723187573/public_html/xavierschool/cache/stores/memcache/settings.php',
+        'memcached' => '/home/u723187573/public_html/xavierschool/cache/stores/memcached/settings.php',
+        'mongodb' => '/home/u723187573/public_html/xavierschool/cache/stores/mongodb/settings.php',
+      ),
+      'cachelock' => 
+      array (
+      ),
+      'theme' => 
+      array (
+        'afterburner' => '/home/u723187573/public_html/xavierschool/theme/afterburner/settings.php',
+        'anomaly' => '/home/u723187573/public_html/xavierschool/theme/anomaly/settings.php',
+        'arialist' => '/home/u723187573/public_html/xavierschool/theme/arialist/settings.php',
+        'brick' => '/home/u723187573/public_html/xavierschool/theme/brick/settings.php',
+        'clean' => '/home/u723187573/public_html/xavierschool/theme/clean/settings.php',
+        'formal_white' => '/home/u723187573/public_html/xavierschool/theme/formal_white/settings.php',
+        'fusion' => '/home/u723187573/public_html/xavierschool/theme/fusion/settings.php',
+        'magazine' => '/home/u723187573/public_html/xavierschool/theme/magazine/settings.php',
+        'nimble' => '/home/u723187573/public_html/xavierschool/theme/nimble/settings.php',
+        'nonzero' => '/home/u723187573/public_html/xavierschool/theme/nonzero/settings.php',
+        'overlay' => '/home/u723187573/public_html/xavierschool/theme/overlay/settings.php',
+        'sky_high' => '/home/u723187573/public_html/xavierschool/theme/sky_high/settings.php',
+        'splash' => '/home/u723187573/public_html/xavierschool/theme/splash/settings.php',
+      ),
+      'assignsubmission' => 
+      array (
+        'file' => '/home/u723187573/public_html/xavierschool/mod/assign/submission/file/settings.php',
+        'onlinetext' => '/home/u723187573/public_html/xavierschool/mod/assign/submission/onlinetext/settings.php',
+      ),
+      'assignfeedback' => 
+      array (
+        'comments' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/comments/settings.php',
+        'editpdf' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/editpdf/settings.php',
+        'file' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/file/settings.php',
+        'offline' => '/home/u723187573/public_html/xavierschool/mod/assign/feedback/offline/settings.php',
+      ),
+      'assignment' => 
+      array (
+      ),
+      'booktool' => 
+      array (
+      ),
+      'datafield' => 
+      array (
+      ),
+      'datapreset' => 
+      array (
+      ),
+      'ltisource' => 
+      array (
+      ),
+      'quiz' => 
+      array (
+      ),
+      'quizaccess' => 
+      array (
+      ),
+      'scormreport' => 
+      array (
+      ),
+      'workshopform' => 
+      array (
+        'numerrors' => '/home/u723187573/public_html/xavierschool/mod/workshop/form/numerrors/settings.php',
+      ),
+      'workshopallocation' => 
+      array (
+        'random' => '/home/u723187573/public_html/xavierschool/mod/workshop/allocation/random/settings.php',
+      ),
+      'workshopeval' => 
+      array (
+        'best' => '/home/u723187573/public_html/xavierschool/mod/workshop/eval/best/settings.php',
+      ),
+      'tinymce' => 
+      array (
+        'dragmath' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/dragmath/settings.php',
+        'moodleemoticon' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/moodleemoticon/settings.php',
+        'spellchecker' => '/home/u723187573/public_html/xavierschool/lib/editor/tinymce/plugins/spellchecker/settings.php',
+      ),
+      'local' => 
+      array (
+      ),
+    ),
+  ),
+  'version' => 2013111803,
+);
